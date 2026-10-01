@@ -1,0 +1,28 @@
+##########################################################################
+# VELOCITY WINDOW KEY
+##########################################################################
+
+# Key to map from target name to velocity window in km/s
+
+# N.B. this file is automatically produced in some cases and this
+# documentation would be overwritten.
+
+# When the user requests to construct the flat masks used to produce the 
+# flat moment-0 maps the velocity window is needed. This file provides that 
+# velocity window.
+
+# Column 1: target name
+# Column 2: velocity window in km/s
+# Column 3: velocity field file name
+
+##########################################################################
+
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: target, datatype: string}
+# - {name: window, unit: km / s, datatype: float64}
+# - {name: vfield_file, datatype: string}
+# delimiter: ','
+# schema: astropy-2.0
+# target,window,vfield_file

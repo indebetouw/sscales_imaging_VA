@@ -1,0 +1,17 @@
+ngc5236_5    2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/targms/uid___A002_X133b089_X6951_targets.ms
+ngc5236_5    2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/targms/uid___A002_X133b089_X7312_targets.ms
+ngc5236_5    2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   3   ngc5236/targms/uid___A002_X13613bd_X9cbd_targets.ms
+ngc5236_5    2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   4   ngc5236/targms/uid___A002_X1366160_Xd91e_targets.ms
+ngc5236_5    2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/targms/uid___A002_X13128dc_X1194c_targets.ms
+ngc5236_5    2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/targms/uid___A002_X1314bf3_X268e_targets.ms
+ngc5236_5    2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/targms/uid___A002_X1315235_X112f0_targets.ms
+ngc5236_5    2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/targms/uid___A002_X1315235_X11a7e_targets.ms
+ngc5236_5    2025.1.00576.L  /^((?!_FluxRef).)*/     7m      5   ngc5236/targms/uid___A002_X1315235_X1a10a_targets.ms
+
+ngc5236_6    2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/uid___A002_X133789a_X14683.ms.split.cal
+ngc5236_6    2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/uid___A002_X133789a_X1e318.ms.split.cal
+ngc5236_6    2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   3    ngc5236/splitms/uid___A002_X1363b1e_X3dcc.ms.split.cal
+ngc5236_6    2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/uid___A002_X12f828c_X1d509.ms.split.cal
+ngc5236_6    2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/uid___A002_X12f828c_X1d942.ms.split.cal
+ngc5236_6    2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/uid___A002_X1305409_X109bb.ms.split.cal
+ngc5236_6    2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/uid___A002_X1305409_X15ee7.ms.split.cal

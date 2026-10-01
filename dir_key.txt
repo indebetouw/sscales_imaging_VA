@@ -1,0 +1,32 @@
+##########################################################################
+# DIRECTORY MAPPING KEY
+##########################################################################
+
+# Key to map from target name to working directory name.
+
+# N.B. You may not need this file!
+
+# BY DEFAULT the working directory for any target is a directory with
+# the same name as the target. The programs will create the
+# appropriate directory in the imaging, postprocessing,
+# etc. directories.
+
+# This key allows targets to be mapped to other directories.
+
+# The most common use is to combine several targets into a single
+# directory. This comes up for PHANGS-ALMA in the context of linear
+# mosaics. Several targets are observed and then larter combined into
+# a single data cube. Thus we prefer to image and process these parts
+# together in a single directory.
+
+# The syntax for the key is space or tab delimited:
+
+# Column 1: target name
+# Column 2: working directory name
+
+##########################################################################
+
+# ngc5236_5	 ngc5236
+# ngc5236_6	 ngc5236
+# ngc5236_5	 ngc5236_sdint_mosF_40ch
+# ngc5236_6	 ngc5236_sdint_mosF_40ch

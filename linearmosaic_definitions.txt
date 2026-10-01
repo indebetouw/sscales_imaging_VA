@@ -1,0 +1,34 @@
+##########################################################################
+# LINEAR MOSAIC DEFINITIONS
+##########################################################################
+
+# N.B. You may not need this file if you are not linearly mosaicking.
+
+# Define the mapping of imaging targets to linear mosaics. Imaging
+# targets (column 2) will be separately cleaned and deconvolved and
+# then combined into a single data product via linear mosaic in the
+# postprocessing.
+
+# This file links target name of each mosaic observation to galaxy name. 
+
+# Column 1: Name of the target for the full linear mosaic
+# Column 2: Name of the imaging target that belongs to that mosaic
+
+# So each entry in Column 1 will share several entries in Column 2,
+# e.g.,
+
+#circinus  circinus_1
+#circinus  circinus_2
+ 
+# would merge together circinus_1 and circinus_2 into circinus during
+# linear mosaicking.
+
+# Note that BOTH the linear mosaic and the target need to be defined
+# in the target key.
+
+##########################################################################
+
+# DELETE AFTER HERE FOR NEW PROJECT, FULL PHANGS-ALMA CASE FOLLOWS
+
+ngc5236	  ngc5236_5A
+ngc5236	  ngc5236_5B

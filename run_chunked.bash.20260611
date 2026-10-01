@@ -1,0 +1,44 @@
+#!/bin/bash
+#SBATCH --account=rindebet
+#SBATCH --time=24:00:00
+#SBATCH --job-name=m83_6_noT2
+#SBATCH --output=m83_6_noT2_%A_%a.out
+#SBATCH --error=m83_6_noT2_%A_%a.err
+#SBATCH --ntasks=8      # number of MPI processes
+#SBATCH --mem=254G      # memory; default unit is megabytes; was 32G/core
+#SBATCH --cpus-per-task=1
+#SBATCH --mail-user=rindebet@nrao.edu
+#SBATCH --mail-type=ALL
+#SBATCH --partition=plwg,batch2
+
+# Edit these lines to point to correct directory and galaxy name
+export code_dir='/lustre/cv/users/rindebet/local/github/phangs_imaging_scripts/NRAO/'
+# export casadir='/lustre/cv/users/rindebet/casa/casa-6.7.5-10-pipeline-2026.1.1.7-py3.12.el8/'
+export target='ngc5236_5'
+
+# call this file with 
+# sbatch --array=0-5 run_chunked.bash
+
+# Edit to do correct stage string
+# S = staging
+# I = imaging
+# A = assemble
+# P = postprocess
+# D = derived
+export stagestring='I'
+
+#### you shouldn't need to edit below this line
+srun bash
+#ls -l /idia/software/containers/casa-modular-v6.6.4.sif
+#module load casa/6.6.4
+# do this in the CASA installation before starting this script
+# pip install spectral-cube
+
+if [ -z ${SLURM_ARRAY_TASK_ID+x} ]; then export SLURM_ARRAY_TASK_ID=-1; fi
+echo "Job array ID is set to '$SLURM_ARRAY_TASK_ID'"
+
+# how to pass arguments to the -c command of casa
+#${casadir}/bin/casa --log2term --logfile casa_{$SLURM_ARRAY_TASK_ID}.log -c "${code_dir}/run_chunk.py $target $stagestring $SLURM_ARRAY_TASK_ID"
+. /users/rindebet/miniforge3/etc/profile.d/conda.sh
+conda activate phclean
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 mpirun --mca btl_vader_single_copy_mechanism none -x OMP_NUM_THREADS -x OPENBLAS_NUM_THREADS -n 4 python ${code_dir}/run_chunk.py $target $stagestring $SLURM_ARRAY_TASK_ID

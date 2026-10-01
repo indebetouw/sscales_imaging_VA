@@ -1,0 +1,124 @@
+### NGC5236 LP ###
+
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_1/uid___A002_X133b089_X1adc2.ms.split.cal
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_1/uid___A002_X1344b1c_X1e074.ms.split.cal
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   3   ngc5236/splitms/ngc5236_1/uid___A002_X1344b1c_X28486.ms.split.cal
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_1/uid___A002_X13613bd_Xa3c7.ms.split.cal
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   2   ngc5236/splitms/ngc5236_1/uid___A002_X1363b1e_X358f.ms.split.cal
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_1/uid___A002_X131acd3_X12d35.ms.split.cal
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_1/uid___A002_X131acd3_X1a33b.ms.split.cal
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_1/uid___A002_X131acd3_X1b078.ms.split.cal
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_1/uid___A002_X131acd3_X8a15.ms.split.cal
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      5   ngc5236/splitms/ngc5236_1/uid___A002_X131e84e_X5860.ms.split.cal
+ngc5236_1               2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_1/member.uid___A001_X3841_X5b
+
+ngc5236_2               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_2/uid___A002_X13a3180_X309b0.ms.split.cal
+ngc5236_2               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_2/uid___A002_X13a3180_X39879.ms.split.cal
+ngc5236_2               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   3   ngc5236/splitms/ngc5236_2/uid___A002_X13a9d1e_X4ef.ms.split.cal
+ngc5236_2               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_2/uid___A002_X136804d_X1d1f1.ms.split.cal
+ngc5236_2               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_2/uid___A002_X131acd3_X817f.ms.split.cal
+ngc5236_2               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_2/uid___A002_X131e84e_X6440.ms.split.cal
+ngc5236_2               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_2/uid___A002_X131e84e_X78df.ms.split.cal
+ngc5236_2               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_2/uid___A002_X131e84e_X894a.ms.split.cal
+ngc5236_2               2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_2/member.uid___A001_X3841_X65
+
+ngc5236_3               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_3/uid___A002_X13a3180_X25381.ms.split.cal
+ngc5236_3               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_3/uid___A002_X13a3180_X2fd4c.ms.split.cal
+ngc5236_3               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_3/uid___A002_X136804d_X6aae.ms.split.cal
+ngc5236_3               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_3/uid___A002_X131e84e_X11733.ms.split.cal
+ngc5236_3               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_3/uid___A002_X131e84e_X12212.ms.split.cal
+ngc5236_3               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_3/uid___A002_X13224e7_X25e.ms.split.cal
+ngc5236_3               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_3/uid___A002_X13224e7_Xbb6.ms.split.cal
+ngc5236_3               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      5   ngc5236/splitms/ngc5236_3/uid___A002_X1323597_X6914.ms.split.cal
+ngc5236_3               2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_3/member.uid___A001_X3841_X6f
+
+ngc5236_4               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_4/uid___A002_X13a3180_X23d88.ms.split.cal
+ngc5236_4               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_4/uid___A002_X13a3180_X247cc.ms.split.cal
+ngc5236_4               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   3   ngc5236/splitms/ngc5236_4/uid___A002_X13a3180_X2f3db.ms.split.cal
+ngc5236_4               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_4/uid___A002_X136804d_X745e.ms.split.cal
+ngc5236_4               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_4/uid___A002_X1318d6f_X1648c.ms.split.cal
+ngc5236_4               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_4/uid___A002_X1318d6f_X1708b.ms.split.cal
+ngc5236_4               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_4/uid___A002_X1318d6f_Xe878.ms.split.cal
+ngc5236_4               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_4/uid___A002_X131acd3_X69c2.ms.split.cal
+ngc5236_4               2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_4/member.uid___A001_X3841_X79
+
+ngc5236_5               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_5/uid___A002_X133b089_X6951.ms.split.cal
+ngc5236_5               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_5/uid___A002_X133b089_X7312.ms.split.cal
+ngc5236_5               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_5/uid___A002_X13613bd_X9cbd.ms.split.cal
+ngc5236_5               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   2   ngc5236/splitms/ngc5236_5/uid___A002_X1366160_Xd91e.ms.split.cal
+ngc5236_5               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_5/uid___A002_X13128dc_X1194c.ms.split.cal
+ngc5236_5               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_5/uid___A002_X1314bf3_X268e.ms.split.cal
+ngc5236_5               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_5/uid___A002_X1315235_X112f0.ms.split.cal
+ngc5236_5               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_5/uid___A002_X1315235_X11a7e.ms.split.cal
+ngc5236_5               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      5   ngc5236/splitms/ngc5236_5/uid___A002_X1315235_X1a10a.ms.split.cal
+ngc5236_5               2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_5/member.uid___A001_X3841_X83
+
+ngc5236_6               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_6/uid___A002_X133789a_X14683.ms.split.cal
+ngc5236_6               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_6/uid___A002_X133789a_X1e318.ms.split.cal
+ngc5236_6               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_6/uid___A002_X1363b1e_X3dcc.ms.split.cal
+ngc5236_6               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_6/uid___A002_X12f828c_X1d509.ms.split.cal
+ngc5236_6               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_6/uid___A002_X12f828c_X1d942.ms.split.cal
+ngc5236_6               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_6/uid___A002_X1305409_X109bb.ms.split.cal
+ngc5236_6               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_6/uid___A002_X1305409_X15ee7.ms.split.cal
+ngc5236_6               2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_6/member.uid___A001_X3841_X8d
+
+ngc5236_7               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_7/uid___A002_X13a3180_X1ca62.ms.split.cal
+ngc5236_7               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_7/uid___A002_X13a3180_X1d3f9.ms.split.cal
+ngc5236_7               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_7/uid___A002_X13613bd_Xacac.ms.split.cal
+ngc5236_7               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   2   ngc5236/splitms/ngc5236_7/uid___A002_X1366160_Xdf8c.ms.split.cal
+ngc5236_7               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_7/uid___A002_X130a07a_X10900.ms.split.cal
+ngc5236_7               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_7/uid___A002_X130a07a_X22dbb.ms.split.cal
+ngc5236_7               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_7/uid___A002_X130a07a_X24098.ms.split.cal
+ngc5236_7               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_7/uid___A002_X130a07a_X24877.ms.split.cal
+ngc5236_7               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      5   ngc5236/splitms/ngc5236_7/uid___A002_X130a07a_X2b0d7.ms.split.cal
+ngc5236_7               2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_7/member.uid___A001_X3841_X97
+
+ngc5236_8               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_8/uid___A002_X133789a_X1ef4d.ms.split.cal
+ngc5236_8               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_8/uid___A002_X133789a_X1fc49.ms.split.cal
+ngc5236_8               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_8/uid___A002_X1363b1e_X4613.ms.split.cal
+ngc5236_8               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_8/uid___A002_X12f828c_X14d83.ms.split.cal
+ngc5236_8               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_8/uid___A002_X12f828c_X151ea.ms.split.cal
+ngc5236_8               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_8/uid___A002_X12f828c_X1ccde.ms.split.cal
+ngc5236_8               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_8/uid___A002_X1308e09_X5687.ms.split.cal
+ngc5236_8               2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_8/member.uid___A001_X3841_Xa1
+
+ngc5236_9               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_9/uid___A002_X1344b1c_X32fb8.ms.split.cal
+ngc5236_9               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_9/uid___A002_X13a3180_X13b7c.ms.split.cal
+ngc5236_9               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   3   ngc5236/splitms/ngc5236_9/uid___A002_X13a3180_X146c9.ms.split.cal
+ngc5236_9               2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_9/uid___A002_X1366160_X618c.ms.split.cal
+ngc5236_9               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_9/uid___A002_X1318d6f_X17b38.ms.split.cal
+ngc5236_9               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_9/uid___A002_X1318d6f_Xf3f5.ms.split.cal
+ngc5236_9               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_9/uid___A002_X131acd3_X11e57.ms.split.cal
+ngc5236_9               2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_9/uid___A002_X131acd3_X7560.ms.split.cal
+ngc5236_9               2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_9/member.uid___A001_X3841_Xab
+
+ngc5236_10              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_10/uid___A002_X13a9d1e_X1091.ms.split.cal
+ngc5236_10              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_10/uid___A002_X13a9d1e_X1aec.ms.split.cal
+ngc5236_10              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   3   ngc5236/splitms/ngc5236_10/uid___A002_X13ab10e_X5ea.ms.split.cal
+ngc5236_10              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_10/uid___A002_X136804d_X7cc9.ms.split.cal
+ngc5236_10              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_10/uid___A002_X1315235_X1a559.ms.split.cal
+ngc5236_10              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_10/uid___A002_X1315235_X1a9e9.ms.split.cal
+ngc5236_10              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_10/uid___A002_X1315235_X2236f.ms.split.cal
+ngc5236_10              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_10/uid___A002_X1315235_X22dd4.ms.split.cal
+ngc5236_10              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      5   ngc5236/splitms/ngc5236_10/uid___A002_X1318d6f_Xdc64.ms.split.cal
+ngc5236_10              2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_10/member.uid___A001_X3841_Xb5
+
+ngc5236_11              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_11/uid___A002_X13a3180_X1dd68.ms.split.cal
+ngc5236_11              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_11/uid___A002_X13a3180_X2307b.ms.split.cal
+ngc5236_11              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_11/uid___A002_X136804d_X1c7af.ms.split.cal
+ngc5236_11              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_11/uid___A002_X131e84e_X103e6.ms.split.cal
+ngc5236_11              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_11/uid___A002_X131e84e_X10eef.ms.split.cal
+ngc5236_11              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_11/uid___A002_X131e84e_X6e82.ms.split.cal
+ngc5236_11              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_11/uid___A002_X131e84e_X7fd1.ms.split.cal
+ngc5236_11              2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_11/member.uid___A001_X3841_Xbf
+
+ngc5236_12              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   1   ngc5236/splitms/ngc5236_12/uid___A002_X13a3180_X153d8.ms.split.cal
+ngc5236_12              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_1   2   ngc5236/splitms/ngc5236_12/uid___A002_X13a3180_X1c0b0.ms.split.cal
+ngc5236_12              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   1   ngc5236/splitms/ngc5236_12/uid___A002_X1366160_Xfced.ms.split.cal
+ngc5236_12              2025.1.00576.L  /^((?!_FluxRef).)*/     12m_2   2   ngc5236/splitms/ngc5236_12/uid___A002_X136804d_X1b7e2.ms.split.cal
+ngc5236_12              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      1   ngc5236/splitms/ngc5236_12/uid___A002_X130f861_X4b50.ms.split.cal
+ngc5236_12              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      2   ngc5236/splitms/ngc5236_12/uid___A002_X130f861_X5442.ms.split.cal
+ngc5236_12              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      3   ngc5236/splitms/ngc5236_12/uid___A002_X130f861_X61f5.ms.split.cal
+ngc5236_12              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      4   ngc5236/splitms/ngc5236_12/uid___A002_X130f861_X6ca2.ms.split.cal
+ngc5236_12              2025.1.00576.L  /^((?!_FluxRef).)*/     7m      5   ngc5236/splitms/ngc5236_12/uid___A002_X13128dc_X11498.ms.split.cal
+ngc5236_12              2025.1.00576.L  /^((?!_FluxRef).)*/     tp      1   ngc5236/splitms/ngc5236_12/member.uid___A001_X3841_Xc9

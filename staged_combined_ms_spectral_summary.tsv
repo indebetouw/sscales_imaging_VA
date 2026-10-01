@@ -1,0 +1,22 @@
+target	product	nchan	v_center_kms_radio	chan_width_kms	v_range_kms	v_min_kms	v_max_kms	ms_path
+ngc5236_1	13co21	191	512.131577	2.657492	[259.669809, 764.593345]	259.669809	764.593345	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_1/ngc5236_1_12m+7m_13co21.ms
+ngc5236_2	13co21	191	512.131577	2.657492	[259.669809, 764.593345]	259.669809	764.593345	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_2/ngc5236_2_12m+7m_13co21.ms
+ngc5236_2	c18o21	191	513.098090	2.667639	[259.672367, 766.523813]	259.672367	766.523813	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_2/ngc5236_2_12m+7m_c18o21.ms
+ngc5236_3	13co21	191	512.131577	2.657492	[259.669809, 764.593345]	259.669809	764.593345	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_3/ngc5236_3_12m+7m_13co21.ms
+ngc5236_3	c18o21	191	513.098090	2.667639	[259.672367, 766.523813]	259.672367	766.523813	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_3/ngc5236_3_12m+7m_c18o21.ms
+ngc5236_4	13co21	195	512.446562	2.657492	[254.669809, 770.223314]	254.669809	770.223314	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_4/ngc5236_4_12m+7m_13co21.ms
+ngc5236_4	c18o21	194	510.765729	2.667639	[254.672367, 769.526731]	254.672367	769.526731	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_4/ngc5236_4_12m+7m_c18o21.ms
+ngc5236_5	co21	200	514.014014	2.540613	[259.952730, 765.534685]	259.952730	765.534685	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_5/ngc5236_5_12m+7m_co21.ms
+ngc5236_5	13co21	191	512.131577	2.657492	[259.669809, 764.593345]	259.669809	764.593345	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_5/ngc5236_5_12m+7m_13co21.ms
+ngc5236_5	c18o21	191	513.098090	2.667639	[259.672367, 766.523813]	259.672367	766.523813	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_5/ngc5236_5_12m+7m_c18o21.ms
+ngc5236_6	co21	204	514.095239	2.540613	[254.952730, 770.697136]	254.952730	770.697136	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_6/ngc5236_6_12m+7m_co21.ms
+ngc5236_6	13co21	195	512.446562	2.657492	[254.669809, 770.223314]	254.669809	770.223314	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_6/ngc5236_6_12m+7m_13co21.ms
+ngc5236_6	c18o21	194	510.765729	2.667639	[254.672367, 769.526731]	254.672367	769.526731	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_6/ngc5236_6_12m+7m_c18o21.ms
+ngc5236_7	13co21	195	512.446562	2.657492	[254.669809, 770.223314]	254.669809	770.223314	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_7/ngc5236_7_12m+7m_13co21.ms
+ngc5236_7	c18o21	194	510.765729	2.667639	[254.672367, 769.526731]	254.672367	769.526731	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_7/ngc5236_7_12m+7m_c18o21.ms
+ngc5236_8	co21	204	514.095239	2.540613	[254.952730, 770.697136]	254.952730	770.697136	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_8/ngc5236_8_12m+7m_co21.ms
+ngc5236_8	13co21	195	512.446562	2.657492	[254.669809, 770.223314]	254.669809	770.223314	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_8/ngc5236_8_12m+7m_13co21.ms
+ngc5236_8	c18o21	194	510.765729	2.667639	[254.672367, 769.526731]	254.672367	769.526731	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_8/ngc5236_8_12m+7m_c18o21.ms
+ngc5236_9	co21	204	514.095239	2.540613	[254.952730, 770.697136]	254.952730	770.697136	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_9/ngc5236_9_12m+7m_co21.ms
+ngc5236_9	13co21	195	512.446562	2.657492	[254.669809, 770.223314]	254.669809	770.223314	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_9/ngc5236_9_12m+7m_13co21.ms
+ngc5236_9	c18o21	194	510.765729	2.667639	[254.672367, 769.526731]	254.672367	769.526731	/lustre/cv/users/rindebet/galaxies/array_reduction/ngc5236_9/ngc5236_9_12m+7m_c18o21.ms

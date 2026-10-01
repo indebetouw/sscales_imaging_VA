@@ -1,0 +1,899 @@
+### NGC0253 ARCHIVAL ###
+
+### NGC0253 LP ###
+
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X13c3b.ms.split.cal
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X139fbe0_X710d.ms.split.cal
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X13786d6_X7071.ms.split.cal
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X137905e_X8612.ms.split.cal
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X131acd3_X16a16.ms.split.cal
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X131acd3_X1e7c5.ms.split.cal
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X131e84e_X1b3f.ms.split.cal
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X131e84e_X2667.ms.split.cal
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X131e84e_X2cbd.ms.split.cal
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc0253/2025.1.00576.L/uid___A002_X131e84e_Xa664.ms.split.cal
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X203
+ngc0253_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8bb
+
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X11181.ms.split.cal
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X11a0f.ms.split.cal
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X187c4.ms.split.cal
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X137905e_Xa5af.ms.split.cal
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1315235_X13b9c.ms.split.cal
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1315235_X1c384.ms.split.cal
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1315235_X1d435.ms.split.cal
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X1315235_X1dc90.ms.split.cal
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1315235_Xbdf6.ms.split.cal
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc0253/2025.1.00576.L/uid___A002_X1318d6f_X81b4.ms.split.cal
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X20d
+ngc0253_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8bf
+
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X2df73.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X2e78d.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1380.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X1dfe4.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X1375b6a_X8c9a.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1321425_X37a1.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1321425_X531d.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1321425_X61b1.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X13224e7_X3db7.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1323597_X1906.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc0253/2025.1.00576.L/uid___A002_X1323597_X2c94.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    7	ngc0253/2025.1.00576.L/uid___A002_X1323597_X3843.ms.split.cal
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X217
+ngc0253_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8c3
+
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X23952.ms.split.cal
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X240cc.ms.split.cal
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X904d.ms.split.cal
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X1387c86_X6b27.ms.split.cal
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X133789a_X195dd.ms.split.cal
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X133789a_X1acdf.ms.split.cal
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X133789a_Xe785.ms.split.cal
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X133b089_X1c6b.ms.split.cal
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X133b089_X421.ms.split.cal
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X221
+ngc0253_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8c7
+
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X107c2.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X8fef.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X974e.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X137905e_X1e150.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1323597_X22657.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X26ce0.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X275b7.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X9da0.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X13270a2_Xa887.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc0253/2025.1.00576.L/uid___A002_X13270a2_Xbf1c.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    7	ngc0253/2025.1.00576.L/uid___A002_X132c330_X341d.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    8	ngc0253/2025.1.00576.L/uid___A002_X132c330_X3e59.ms.split.cal
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X22b
+ngc0253_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8cb
+
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1607b.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X166c0.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1f0eb.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	4	ngc0253/2025.1.00576.L/uid___A002_X139fbe0_X6853.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	5	ngc0253/2025.1.00576.L/uid___A002_X13b5586_X45e6.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	6	ngc0253/2025.1.00576.L/uid___A002_X13b5586_X67c3.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X1387c86_X7300.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X28179.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1335629_Xfc74.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X133789a_X6bcf.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X133789a_Xd0ad.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X133789a_Xdd7c.ms.split.cal
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X235
+ngc0253_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8cf
+
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X75f9.ms.split.cal
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X801a.ms.split.cal
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X137905e_X14171.ms.split.cal
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X137905e_X1f7b7.ms.split.cal
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1323597_X213c2.ms.split.cal
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X132c330_X4ba6.ms.split.cal
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X132e57d_X21820.ms.split.cal
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X132e57d_X22608.ms.split.cal
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X1a6.ms.split.cal
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X567.ms.split.cal
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X23f
+ngc0253_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8d3
+
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1f928.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X139fbe0_X7b65.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X6a44.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X137905e_X1d86b.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1323597_Xebf1.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X13270a2_Xc8da.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X168be.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X1335629_X9cb7.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1335629_Xa6ef.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc0253/2025.1.00576.L/uid___A002_X1335629_Xf10b.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    7	ngc0253/2025.1.00576.L/uid___A002_X1335629_Xfd5.ms.split.cal
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X249
+ngc0253_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8d7
+
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X133dde2_X19ad9.ms.split.cal
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X133dde2_Xa468.ms.split.cal
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X1366160_X9aa1.ms.split.cal
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1308e09_X3132.ms.split.cal
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1308e09_X3aed.ms.split.cal
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1308e09_X3fcc.ms.split.cal
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X130a07a_X1416.ms.split.cal
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X130a07a_X1d7c.ms.split.cal
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc0253/2025.1.00576.L/uid___A002_X130a07a_Xd26.ms.split.cal
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X253
+ngc0253_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8db
+
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X133dde2_X1fa84.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X133dde2_X20214.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_Xe3c9.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136804d_X18811.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X136804d_Xd07e.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1318d6f_X11fe4.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1318d6f_X12a73.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1318d6f_X95d1.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X131acd3_X1237.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X131acd3_X1a4a.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc0253/2025.1.00576.L/uid___A002_X131acd3_X201b.ms.split.cal
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X25d
+ngc0253_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8df
+
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X2d27a.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X2ee85.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1998.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X1ca78.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X1371ed9_X8f8c.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1323597_X21cfa.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X13270a2_Xb550.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X1493e.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X151dc.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X15dad.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X24b2.ms.split.cal
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X267
+ngc0253_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8e3
+
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1491a.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_Xb873.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X1d1dc.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X1f0cf.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1323597_X17ec8.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1323597_Xcbb1.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1323597_Xd53f.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X1323597_Xe1c4.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1323597_Xf5c9.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X4af.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    7	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X944c.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    8	ngc0253/2025.1.00576.L/uid___A002_X13270a2_Xcac.ms.split.cal
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3839_X271
+ngc0253_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8e7
+
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X228e3.ms.split.cal
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X22dc3.ms.split.cal
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136804d_Xd7f3.ms.split.cal
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X12ce5.ms.split.cal
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1305409_X12b6e.ms.split.cal
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1305409_X12f80.ms.split.cal
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1305409_X18ddd.ms.split.cal
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0253/2025.1.00576.L/uid___A002_X1305409_X1924c.ms.split.cal
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1308e09_X2c15.ms.split.cal
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0253/2025.1.00576.L/member.uid___A001_X3841_X2a5
+ngc0253_13	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    2	ngc0253/2025.1.00576.L/member.uid___A001_X3845_X8eb
+
+### NGC0253 FLUX REFERENCE ###
+
+ngc0253_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X13c3b.ms.split.cal
+ngc0253_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X139fbe0_X710d.ms.split.cal
+ngc0253_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X13786d6_X7071.ms.split.cal
+ngc0253_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X137905e_X8612.ms.split.cal
+ngc0253_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X131acd3_X16a16.ms.split.cal
+ngc0253_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X131acd3_X1e7c5.ms.split.cal
+ngc0253_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X131e84e_X1b3f.ms.split.cal
+ngc0253_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X131e84e_X2667.ms.split.cal
+ngc0253_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X131e84e_X2cbd.ms.split.cal
+ngc0253_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc0253/2025.1.00576.L/uid___A002_X131e84e_Xa664.ms.split.cal
+
+ngc0253_2_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X11181.ms.split.cal
+ngc0253_2_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X11a0f.ms.split.cal
+ngc0253_2_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X187c4.ms.split.cal
+ngc0253_2_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X137905e_Xa5af.ms.split.cal
+ngc0253_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1315235_X13b9c.ms.split.cal
+ngc0253_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1315235_X1c384.ms.split.cal
+ngc0253_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1315235_X1d435.ms.split.cal
+ngc0253_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X1315235_X1dc90.ms.split.cal
+ngc0253_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1315235_Xbdf6.ms.split.cal
+ngc0253_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc0253/2025.1.00576.L/uid___A002_X1318d6f_X81b4.ms.split.cal
+
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X2df73.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X2e78d.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1380.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X1dfe4.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X1375b6a_X8c9a.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1321425_X37a1.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1321425_X531d.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1321425_X61b1.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X13224e7_X3db7.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1323597_X1906.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc0253/2025.1.00576.L/uid___A002_X1323597_X2c94.ms.split.cal
+ngc0253_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    7	ngc0253/2025.1.00576.L/uid___A002_X1323597_X3843.ms.split.cal
+
+ngc0253_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X23952.ms.split.cal
+ngc0253_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X240cc.ms.split.cal
+ngc0253_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X904d.ms.split.cal
+ngc0253_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X1387c86_X6b27.ms.split.cal
+ngc0253_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X133789a_X195dd.ms.split.cal
+ngc0253_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X133789a_X1acdf.ms.split.cal
+ngc0253_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X133789a_Xe785.ms.split.cal
+ngc0253_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X133b089_X1c6b.ms.split.cal
+ngc0253_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X133b089_X421.ms.split.cal
+
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X107c2.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X8fef.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X974e.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X137905e_X1e150.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1323597_X22657.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X26ce0.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X275b7.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X9da0.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X13270a2_Xa887.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc0253/2025.1.00576.L/uid___A002_X13270a2_Xbf1c.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    7	ngc0253/2025.1.00576.L/uid___A002_X132c330_X341d.ms.split.cal
+ngc0253_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    8	ngc0253/2025.1.00576.L/uid___A002_X132c330_X3e59.ms.split.cal
+
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1607b.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X166c0.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1f0eb.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	4	ngc0253/2025.1.00576.L/uid___A002_X139fbe0_X6853.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	5	ngc0253/2025.1.00576.L/uid___A002_X13b5586_X45e6.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	6	ngc0253/2025.1.00576.L/uid___A002_X13b5586_X67c3.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X1387c86_X7300.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X28179.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1335629_Xfc74.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X133789a_X6bcf.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X133789a_Xd0ad.ms.split.cal
+ngc0253_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X133789a_Xdd7c.ms.split.cal
+
+ngc0253_7_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X75f9.ms.split.cal
+ngc0253_7_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X801a.ms.split.cal
+ngc0253_7_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X137905e_X14171.ms.split.cal
+ngc0253_7_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X137905e_X1f7b7.ms.split.cal
+ngc0253_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1323597_X213c2.ms.split.cal
+ngc0253_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X132c330_X4ba6.ms.split.cal
+ngc0253_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X132e57d_X21820.ms.split.cal
+ngc0253_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X132e57d_X22608.ms.split.cal
+ngc0253_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X1a6.ms.split.cal
+ngc0253_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X567.ms.split.cal
+
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1f928.ms.split.cal
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X139fbe0_X7b65.ms.split.cal
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X13a3180_X6a44.ms.split.cal
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X137905e_X1d86b.ms.split.cal
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1323597_Xebf1.ms.split.cal
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X13270a2_Xc8da.ms.split.cal
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X168be.ms.split.cal
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X1335629_X9cb7.ms.split.cal
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1335629_Xa6ef.ms.split.cal
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc0253/2025.1.00576.L/uid___A002_X1335629_Xf10b.ms.split.cal
+ngc0253_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    7	ngc0253/2025.1.00576.L/uid___A002_X1335629_Xfd5.ms.split.cal
+
+ngc0253_9_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X133dde2_X19ad9.ms.split.cal
+ngc0253_9_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X133dde2_Xa468.ms.split.cal
+ngc0253_9_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X1366160_X9aa1.ms.split.cal
+ngc0253_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1308e09_X3132.ms.split.cal
+ngc0253_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1308e09_X3aed.ms.split.cal
+ngc0253_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1308e09_X3fcc.ms.split.cal
+ngc0253_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X130a07a_X1416.ms.split.cal
+ngc0253_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X130a07a_X1d7c.ms.split.cal
+ngc0253_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc0253/2025.1.00576.L/uid___A002_X130a07a_Xd26.ms.split.cal
+
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X133dde2_X1fa84.ms.split.cal
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X133dde2_X20214.ms.split.cal
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_Xe3c9.ms.split.cal
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136804d_X18811.ms.split.cal
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X136804d_Xd07e.ms.split.cal
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1318d6f_X11fe4.ms.split.cal
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1318d6f_X12a73.ms.split.cal
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1318d6f_X95d1.ms.split.cal
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X131acd3_X1237.ms.split.cal
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X131acd3_X1a4a.ms.split.cal
+ngc0253_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc0253/2025.1.00576.L/uid___A002_X131acd3_X201b.ms.split.cal
+
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X2d27a.ms.split.cal
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X2ee85.ms.split.cal
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1998.ms.split.cal
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X1ca78.ms.split.cal
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X1371ed9_X8f8c.ms.split.cal
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1323597_X21cfa.ms.split.cal
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X13270a2_Xb550.ms.split.cal
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X1493e.ms.split.cal
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X151dc.ms.split.cal
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X15dad.ms.split.cal
+ngc0253_11_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc0253/2025.1.00576.L/uid___A002_X1332c29_X24b2.ms.split.cal
+
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_X1491a.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X134b3d1_Xb873.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X1d1dc.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X1f0cf.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1323597_X17ec8.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1323597_Xcbb1.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1323597_Xd53f.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X1323597_Xe1c4.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1323597_Xf5c9.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X4af.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    7	ngc0253/2025.1.00576.L/uid___A002_X13270a2_X944c.ms.split.cal
+ngc0253_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    8	ngc0253/2025.1.00576.L/uid___A002_X13270a2_Xcac.ms.split.cal
+
+ngc0253_13_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X228e3.ms.split.cal
+ngc0253_13_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0253/2025.1.00576.L/uid___A002_X1344b1c_X22dc3.ms.split.cal
+ngc0253_13_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc0253/2025.1.00576.L/uid___A002_X136804d_Xd7f3.ms.split.cal
+ngc0253_13_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc0253/2025.1.00576.L/uid___A002_X136d7c6_X12ce5.ms.split.cal
+ngc0253_13_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0253/2025.1.00576.L/uid___A002_X1305409_X12b6e.ms.split.cal
+ngc0253_13_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0253/2025.1.00576.L/uid___A002_X1305409_X12f80.ms.split.cal
+ngc0253_13_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0253/2025.1.00576.L/uid___A002_X1305409_X18ddd.ms.split.cal
+ngc0253_13_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0253/2025.1.00576.L/uid___A002_X1305409_X1924c.ms.split.cal
+ngc0253_13_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0253/2025.1.00576.L/uid___A002_X1308e09_X2c15.ms.split.cal
+
+### NGC0300 LP ###
+
+ngc0300_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X1352304_X26db.ms.split.cal
+ngc0300_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X2757b.ms.split.cal
+ngc0300_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0300/2025.1.00576.L/uid___A002_X130f861_Xb288.ms.split.cal
+ngc0300_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0300/2025.1.00576.L/uid___A002_X1315235_X104b.ms.split.cal
+ngc0300_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0300/2025.1.00576.L/uid___A002_X1315235_X1a74.ms.split.cal
+ngc0300_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc0300/2025.1.00576.L/uid___A002_X1315235_X98e7.ms.split.cal
+ngc0300_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0300/2025.1.00576.L/member.uid___A001_X383d_X436
+
+ngc0300_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0300/2025.1.00576.L/uid___A002_X1315235_X23b7.ms.split.cal
+ngc0300_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0300/2025.1.00576.L/uid___A002_X1315235_X2c90.ms.split.cal
+ngc0300_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0300/2025.1.00576.L/uid___A002_X1315235_Xa611.ms.split.cal
+ngc0300_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0300/2025.1.00576.L/uid___A002_X1315235_Xb265.ms.split.cal
+ngc0300_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0300/2025.1.00576.L/member.uid___A001_X383d_X43e
+
+ngc0300_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X135cc83_X7d59.ms.split.cal
+ngc0300_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0300/2025.1.00576.L/uid___A002_X1305409_X12191.ms.split.cal
+ngc0300_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0300/2025.1.00576.L/uid___A002_X1305409_X12644.ms.split.cal
+ngc0300_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0300/2025.1.00576.L/uid___A002_X1305409_X7976.ms.split.cal
+ngc0300_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0300/2025.1.00576.L/uid___A002_X1305409_Xc193.ms.split.cal
+ngc0300_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0300/2025.1.00576.L/member.uid___A001_X383d_X446
+
+ngc0300_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X134b3d1_X39860.ms.split.cal
+ngc0300_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X2442.ms.split.cal
+ngc0300_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X282a.ms.split.cal
+ngc0300_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X6dbc.ms.split.cal
+ngc0300_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0300/2025.1.00576.L/member.uid___A001_X383d_X44e
+
+ngc0300_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X135cc83_X8173.ms.split.cal
+ngc0300_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X12bc8.ms.split.cal
+ngc0300_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X1767f.ms.split.cal
+ngc0300_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X7342.ms.split.cal
+ngc0300_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X76e3.ms.split.cal
+ngc0300_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0300/2025.1.00576.L/member.uid___A001_X383d_X456
+
+ngc0300_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0300/2025.1.00576.L/uid___A002_X130f861_Xf561.ms.split.cal
+ngc0300_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0300/2025.1.00576.L/uid___A002_X13128dc_X14f3b.ms.split.cal
+ngc0300_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0300/2025.1.00576.L/uid___A002_X13128dc_X15851.ms.split.cal
+ngc0300_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0300/2025.1.00576.L/member.uid___A001_X383d_X45e
+
+ngc0300_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0300/2025.1.00576.L/uid___A002_X12fdb0e_X1e1ba.ms.split.cal
+ngc0300_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0300/2025.1.00576.L/uid___A002_X12fdb0e_Xe2dd.ms.split.cal
+ngc0300_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0300/2025.1.00576.L/uid___A002_X12fdb0e_Xf530.ms.split.cal
+ngc0300_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0300/2025.1.00576.L/member.uid___A001_X383d_X466
+
+ngc0300_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X135cc83_X8d22.ms.split.cal
+ngc0300_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0300/2025.1.00576.L/uid___A002_X137905e_X3f5c2.ms.split.cal
+ngc0300_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X1845b.ms.split.cal
+ngc0300_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X1e6cd.ms.split.cal
+ngc0300_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X1f1da.ms.split.cal
+ngc0300_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X1fe0c.ms.split.cal
+ngc0300_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0300/2025.1.00576.L/member.uid___A001_X383d_X46e
+
+ngc0300_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X134b3d1_X3ac93.ms.split.cal
+ngc0300_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc0300/2025.1.00576.L/uid___A002_X1352304_X1c72.ms.split.cal
+ngc0300_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc0300/2025.1.00576.L/uid___A002_X13012c9_X44f3.ms.split.cal
+ngc0300_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc0300/2025.1.00576.L/uid___A002_X1305409_X1777.ms.split.cal
+ngc0300_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc0300/2025.1.00576.L/uid___A002_X1305409_X75c6.ms.split.cal
+ngc0300_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc0300/2025.1.00576.L/uid___A002_X1305409_Xbd59.ms.split.cal
+ngc0300_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc0300/2025.1.00576.L/member.uid___A001_X383d_X476
+
+### NGC0300 FLUX REFERENCE ###
+
+ngc0300_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X1352304_X26db.ms.split.cal
+ngc0300_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X2757b.ms.split.cal
+ngc0300_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0300/2025.1.00576.L/uid___A002_X130f861_Xb288.ms.split.cal
+ngc0300_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0300/2025.1.00576.L/uid___A002_X1315235_X104b.ms.split.cal
+ngc0300_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0300/2025.1.00576.L/uid___A002_X1315235_X1a74.ms.split.cal
+ngc0300_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc0300/2025.1.00576.L/uid___A002_X1315235_X98e7.ms.split.cal
+
+ngc0300_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0300/2025.1.00576.L/uid___A002_X1315235_X23b7.ms.split.cal
+ngc0300_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0300/2025.1.00576.L/uid___A002_X1315235_X2c90.ms.split.cal
+ngc0300_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0300/2025.1.00576.L/uid___A002_X1315235_Xa611.ms.split.cal
+ngc0300_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0300/2025.1.00576.L/uid___A002_X1315235_Xb265.ms.split.cal
+
+ngc0300_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X135cc83_X7d59.ms.split.cal
+ngc0300_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0300/2025.1.00576.L/uid___A002_X1305409_X12191.ms.split.cal
+ngc0300_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0300/2025.1.00576.L/uid___A002_X1305409_X12644.ms.split.cal
+ngc0300_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0300/2025.1.00576.L/uid___A002_X1305409_X7976.ms.split.cal
+ngc0300_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0300/2025.1.00576.L/uid___A002_X1305409_Xc193.ms.split.cal
+
+ngc0300_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X134b3d1_X39860.ms.split.cal
+ngc0300_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X2442.ms.split.cal
+ngc0300_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X282a.ms.split.cal
+ngc0300_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X6dbc.ms.split.cal
+
+ngc0300_5_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X135cc83_X8173.ms.split.cal
+ngc0300_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X12bc8.ms.split.cal
+ngc0300_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X1767f.ms.split.cal
+ngc0300_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X7342.ms.split.cal
+ngc0300_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X76e3.ms.split.cal
+
+ngc0300_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0300/2025.1.00576.L/uid___A002_X130f861_Xf561.ms.split.cal
+ngc0300_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0300/2025.1.00576.L/uid___A002_X13128dc_X14f3b.ms.split.cal
+ngc0300_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0300/2025.1.00576.L/uid___A002_X13128dc_X15851.ms.split.cal
+
+ngc0300_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0300/2025.1.00576.L/uid___A002_X12fdb0e_X1e1ba.ms.split.cal
+ngc0300_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0300/2025.1.00576.L/uid___A002_X12fdb0e_Xe2dd.ms.split.cal
+ngc0300_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0300/2025.1.00576.L/uid___A002_X12fdb0e_Xf530.ms.split.cal
+
+ngc0300_8_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X135cc83_X8d22.ms.split.cal
+ngc0300_8_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0300/2025.1.00576.L/uid___A002_X137905e_X3f5c2.ms.split.cal
+ngc0300_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X1845b.ms.split.cal
+ngc0300_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X1e6cd.ms.split.cal
+ngc0300_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X1f1da.ms.split.cal
+ngc0300_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0300/2025.1.00576.L/uid___A002_X130a07a_X1fe0c.ms.split.cal
+
+ngc0300_9_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc0300/2025.1.00576.L/uid___A002_X134b3d1_X3ac93.ms.split.cal
+ngc0300_9_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc0300/2025.1.00576.L/uid___A002_X1352304_X1c72.ms.split.cal
+ngc0300_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc0300/2025.1.00576.L/uid___A002_X13012c9_X44f3.ms.split.cal
+ngc0300_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc0300/2025.1.00576.L/uid___A002_X1305409_X1777.ms.split.cal
+ngc0300_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc0300/2025.1.00576.L/uid___A002_X1305409_X75c6.ms.split.cal
+ngc0300_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc0300/2025.1.00576.L/uid___A002_X1305409_Xbd59.ms.split.cal
+
+### NGC5236 LP ###
+
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X133b089_X1adc2.ms.split.cal
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X1344b1c_X1e074.ms.split.cal
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc5236/2025.1.00576.L/uid___A002_X1344b1c_X28486.ms.split.cal
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X13613bd_Xa3c7.ms.split.cal
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc5236/2025.1.00576.L/uid___A002_X1363b1e_X358f.ms.split.cal
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X12d35.ms.split.cal
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X1a33b.ms.split.cal
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X1b078.ms.split.cal
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X8a15.ms.split.cal
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X5860.ms.split.cal
+ngc5236_1	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_X5b
+
+ngc5236_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X309b0.ms.split.cal
+ngc5236_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X39879.ms.split.cal
+ngc5236_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc5236/2025.1.00576.L/uid___A002_X13a9d1e_X4ef.ms.split.cal
+ngc5236_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X136804d_X1d1f1.ms.split.cal
+ngc5236_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X817f.ms.split.cal
+ngc5236_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X6440.ms.split.cal
+ngc5236_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X78df.ms.split.cal
+ngc5236_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X894a.ms.split.cal
+ngc5236_2	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_X65
+
+ngc5236_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X25381.ms.split.cal
+ngc5236_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X2fd4c.ms.split.cal
+ngc5236_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X136804d_X6aae.ms.split.cal
+ngc5236_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X11733.ms.split.cal
+ngc5236_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X12212.ms.split.cal
+ngc5236_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X13224e7_X25e.ms.split.cal
+ngc5236_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X13224e7_Xbb6.ms.split.cal
+ngc5236_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc5236/2025.1.00576.L/uid___A002_X1323597_X6914.ms.split.cal
+ngc5236_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_X6f
+
+ngc5236_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X23d88.ms.split.cal
+ngc5236_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X247cc.ms.split.cal
+ngc5236_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X2f3db.ms.split.cal
+ngc5236_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X136804d_X745e.ms.split.cal
+ngc5236_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_X1648c.ms.split.cal
+ngc5236_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_X1708b.ms.split.cal
+ngc5236_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_Xe878.ms.split.cal
+ngc5236_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X69c2.ms.split.cal
+ngc5236_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_X79
+
+ngc5236_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X133b089_X6951.ms.split.cal
+ngc5236_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X133b089_X7312.ms.split.cal
+ngc5236_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X13613bd_X9cbd.ms.split.cal
+ngc5236_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc5236/2025.1.00576.L/uid___A002_X1366160_Xd91e.ms.split.cal
+ngc5236_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X13128dc_X1194c.ms.split.cal
+ngc5236_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X1314bf3_X268e.ms.split.cal
+ngc5236_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X1315235_X112f0.ms.split.cal
+ngc5236_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X1315235_X11a7e.ms.split.cal
+ngc5236_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc5236/2025.1.00576.L/uid___A002_X1315235_X1a10a.ms.split.cal
+ngc5236_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_X83
+
+ngc5236_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X133789a_X14683.ms.split.cal
+ngc5236_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X133789a_X1e318.ms.split.cal
+ngc5236_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X1363b1e_X3dcc.ms.split.cal
+ngc5236_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X12f828c_X1d509.ms.split.cal
+ngc5236_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X12f828c_X1d942.ms.split.cal
+ngc5236_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X1305409_X109bb.ms.split.cal
+ngc5236_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X1305409_X15ee7.ms.split.cal
+ngc5236_6	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_X8d
+
+ngc5236_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X1ca62.ms.split.cal
+ngc5236_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X1d3f9.ms.split.cal
+ngc5236_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X13613bd_Xacac.ms.split.cal
+ngc5236_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc5236/2025.1.00576.L/uid___A002_X1366160_Xdf8c.ms.split.cal
+ngc5236_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X130a07a_X10900.ms.split.cal
+ngc5236_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X130a07a_X22dbb.ms.split.cal
+ngc5236_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X130a07a_X24098.ms.split.cal
+ngc5236_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X130a07a_X24877.ms.split.cal
+ngc5236_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc5236/2025.1.00576.L/uid___A002_X130a07a_X2b0d7.ms.split.cal
+ngc5236_7	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_X97
+
+ngc5236_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X133789a_X1ef4d.ms.split.cal
+ngc5236_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X133789a_X1fc49.ms.split.cal
+ngc5236_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X1363b1e_X4613.ms.split.cal
+ngc5236_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X12f828c_X14d83.ms.split.cal
+ngc5236_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X12f828c_X151ea.ms.split.cal
+ngc5236_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X12f828c_X1ccde.ms.split.cal
+ngc5236_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X1308e09_X5687.ms.split.cal
+ngc5236_8	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_Xa1
+
+ngc5236_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X1344b1c_X32fb8.ms.split.cal
+ngc5236_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X13b7c.ms.split.cal
+ngc5236_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X146c9.ms.split.cal
+ngc5236_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X1366160_X618c.ms.split.cal
+ngc5236_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_X17b38.ms.split.cal
+ngc5236_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_Xf3f5.ms.split.cal
+ngc5236_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X11e57.ms.split.cal
+ngc5236_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X7560.ms.split.cal
+ngc5236_9	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_Xab
+
+ngc5236_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a9d1e_X1091.ms.split.cal
+ngc5236_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a9d1e_X1aec.ms.split.cal
+ngc5236_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc5236/2025.1.00576.L/uid___A002_X13ab10e_X5ea.ms.split.cal
+ngc5236_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X136804d_X7cc9.ms.split.cal
+ngc5236_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X1315235_X1a559.ms.split.cal
+ngc5236_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X1315235_X1a9e9.ms.split.cal
+ngc5236_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X1315235_X2236f.ms.split.cal
+ngc5236_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X1315235_X22dd4.ms.split.cal
+ngc5236_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_Xdc64.ms.split.cal
+ngc5236_10	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_Xb5
+
+ngc5236_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X1dd68.ms.split.cal
+ngc5236_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X2307b.ms.split.cal
+ngc5236_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X136804d_X1c7af.ms.split.cal
+ngc5236_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X103e6.ms.split.cal
+ngc5236_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X10eef.ms.split.cal
+ngc5236_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X6e82.ms.split.cal
+ngc5236_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X7fd1.ms.split.cal
+ngc5236_11	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_Xbf
+
+ngc5236_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X153d8.ms.split.cal
+ngc5236_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X1c0b0.ms.split.cal
+ngc5236_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X1366160_Xfced.ms.split.cal
+ngc5236_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc5236/2025.1.00576.L/uid___A002_X136804d_X1b7e2.ms.split.cal
+ngc5236_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc5236/2025.1.00576.L/uid___A002_X130f861_X4b50.ms.split.cal
+ngc5236_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc5236/2025.1.00576.L/uid___A002_X130f861_X5442.ms.split.cal
+ngc5236_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc5236/2025.1.00576.L/uid___A002_X130f861_X61f5.ms.split.cal
+ngc5236_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc5236/2025.1.00576.L/uid___A002_X130f861_X6ca2.ms.split.cal
+ngc5236_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc5236/2025.1.00576.L/uid___A002_X13128dc_X11498.ms.split.cal
+ngc5236_12	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc5236/2025.1.00576.L/member.uid___A001_X3841_Xc9
+
+### NGC5236 FLUX REFERENCE ###
+
+ngc5236_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X133b089_X1adc2.ms.split.cal
+ngc5236_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X1344b1c_X1e074.ms.split.cal
+ngc5236_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc5236/2025.1.00576.L/uid___A002_X1344b1c_X28486.ms.split.cal
+ngc5236_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X13613bd_Xa3c7.ms.split.cal
+ngc5236_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc5236/2025.1.00576.L/uid___A002_X1363b1e_X358f.ms.split.cal
+ngc5236_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X12d35.ms.split.cal
+ngc5236_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X1a33b.ms.split.cal
+ngc5236_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X1b078.ms.split.cal
+ngc5236_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X8a15.ms.split.cal
+ngc5236_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X5860.ms.split.cal
+
+ngc5236_2_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X309b0.ms.split.cal
+ngc5236_2_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X39879.ms.split.cal
+ngc5236_2_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc5236/2025.1.00576.L/uid___A002_X13a9d1e_X4ef.ms.split.cal
+ngc5236_2_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X136804d_X1d1f1.ms.split.cal
+ngc5236_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X817f.ms.split.cal
+ngc5236_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X6440.ms.split.cal
+ngc5236_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X78df.ms.split.cal
+ngc5236_2_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X894a.ms.split.cal
+
+ngc5236_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X25381.ms.split.cal
+ngc5236_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X2fd4c.ms.split.cal
+ngc5236_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X136804d_X6aae.ms.split.cal
+ngc5236_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X11733.ms.split.cal
+ngc5236_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X12212.ms.split.cal
+ngc5236_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X13224e7_X25e.ms.split.cal
+ngc5236_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X13224e7_Xbb6.ms.split.cal
+ngc5236_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc5236/2025.1.00576.L/uid___A002_X1323597_X6914.ms.split.cal
+
+ngc5236_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X23d88.ms.split.cal
+ngc5236_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X247cc.ms.split.cal
+ngc5236_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X2f3db.ms.split.cal
+ngc5236_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X136804d_X745e.ms.split.cal
+ngc5236_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_X1648c.ms.split.cal
+ngc5236_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_X1708b.ms.split.cal
+ngc5236_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_Xe878.ms.split.cal
+ngc5236_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X69c2.ms.split.cal
+
+ngc5236_5_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X133b089_X6951.ms.split.cal
+ngc5236_5_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X133b089_X7312.ms.split.cal
+ngc5236_5_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X13613bd_X9cbd.ms.split.cal
+ngc5236_5_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc5236/2025.1.00576.L/uid___A002_X1366160_Xd91e.ms.split.cal
+ngc5236_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X13128dc_X1194c.ms.split.cal
+ngc5236_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X1314bf3_X268e.ms.split.cal
+ngc5236_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X1315235_X112f0.ms.split.cal
+ngc5236_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X1315235_X11a7e.ms.split.cal
+ngc5236_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc5236/2025.1.00576.L/uid___A002_X1315235_X1a10a.ms.split.cal
+
+ngc5236_6_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X133789a_X14683.ms.split.cal
+ngc5236_6_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X133789a_X1e318.ms.split.cal
+ngc5236_6_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X1363b1e_X3dcc.ms.split.cal
+ngc5236_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X12f828c_X1d509.ms.split.cal
+ngc5236_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X12f828c_X1d942.ms.split.cal
+ngc5236_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X1305409_X109bb.ms.split.cal
+ngc5236_6_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X1305409_X15ee7.ms.split.cal
+
+ngc5236_7_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X1ca62.ms.split.cal
+ngc5236_7_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X1d3f9.ms.split.cal
+ngc5236_7_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X13613bd_Xacac.ms.split.cal
+ngc5236_7_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc5236/2025.1.00576.L/uid___A002_X1366160_Xdf8c.ms.split.cal
+ngc5236_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X130a07a_X10900.ms.split.cal
+ngc5236_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X130a07a_X22dbb.ms.split.cal
+ngc5236_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X130a07a_X24098.ms.split.cal
+ngc5236_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X130a07a_X24877.ms.split.cal
+ngc5236_7_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc5236/2025.1.00576.L/uid___A002_X130a07a_X2b0d7.ms.split.cal
+
+ngc5236_8_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X133789a_X1ef4d.ms.split.cal
+ngc5236_8_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X133789a_X1fc49.ms.split.cal
+ngc5236_8_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X1363b1e_X4613.ms.split.cal
+ngc5236_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X12f828c_X14d83.ms.split.cal
+ngc5236_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X12f828c_X151ea.ms.split.cal
+ngc5236_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X12f828c_X1ccde.ms.split.cal
+ngc5236_8_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X1308e09_X5687.ms.split.cal
+
+ngc5236_9_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X1344b1c_X32fb8.ms.split.cal
+ngc5236_9_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X13b7c.ms.split.cal
+ngc5236_9_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X146c9.ms.split.cal
+ngc5236_9_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X1366160_X618c.ms.split.cal
+ngc5236_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_X17b38.ms.split.cal
+ngc5236_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_Xf3f5.ms.split.cal
+ngc5236_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X11e57.ms.split.cal
+ngc5236_9_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X131acd3_X7560.ms.split.cal
+
+ngc5236_10_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a9d1e_X1091.ms.split.cal
+ngc5236_10_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a9d1e_X1aec.ms.split.cal
+ngc5236_10_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc5236/2025.1.00576.L/uid___A002_X13ab10e_X5ea.ms.split.cal
+ngc5236_10_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X136804d_X7cc9.ms.split.cal
+ngc5236_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X1315235_X1a559.ms.split.cal
+ngc5236_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X1315235_X1a9e9.ms.split.cal
+ngc5236_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X1315235_X2236f.ms.split.cal
+ngc5236_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X1315235_X22dd4.ms.split.cal
+ngc5236_10_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc5236/2025.1.00576.L/uid___A002_X1318d6f_Xdc64.ms.split.cal
+
+ngc5236_11_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X1dd68.ms.split.cal
+ngc5236_11_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X2307b.ms.split.cal
+ngc5236_11_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X136804d_X1c7af.ms.split.cal
+ngc5236_11_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X103e6.ms.split.cal
+ngc5236_11_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X10eef.ms.split.cal
+ngc5236_11_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X6e82.ms.split.cal
+ngc5236_11_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X131e84e_X7fd1.ms.split.cal
+
+ngc5236_12_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X153d8.ms.split.cal
+ngc5236_12_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc5236/2025.1.00576.L/uid___A002_X13a3180_X1c0b0.ms.split.cal
+ngc5236_12_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc5236/2025.1.00576.L/uid___A002_X1366160_Xfced.ms.split.cal
+ngc5236_12_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc5236/2025.1.00576.L/uid___A002_X136804d_X1b7e2.ms.split.cal
+ngc5236_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc5236/2025.1.00576.L/uid___A002_X130f861_X4b50.ms.split.cal
+ngc5236_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc5236/2025.1.00576.L/uid___A002_X130f861_X5442.ms.split.cal
+ngc5236_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc5236/2025.1.00576.L/uid___A002_X130f861_X61f5.ms.split.cal
+ngc5236_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc5236/2025.1.00576.L/uid___A002_X130f861_X6ca2.ms.split.cal
+ngc5236_12_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc5236/2025.1.00576.L/uid___A002_X13128dc_X11498.ms.split.cal
+
+### NGC7793 ARCHIVAL ###
+
+### NGC7793 LP ###
+
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        12m_1	1	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X974a.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        12m_1	2	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X178ea.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        12m_1	3	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X18d52.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        12m_1	4	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_Xc45a.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        12m_1	5	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_Xd0b6.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        12m_1	6	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_Xdbfa.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        12m_2	1	ngc7793/2025.1.00576.L/uid___A002_X1366160_X8d93.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        12m_2	2	ngc7793/2025.1.00576.L/uid___A002_X1366160_X945a.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    1	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X16729.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    2	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X16ad6.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    3	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X2139.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    4	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X2d4a.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    5	ngc7793/2025.1.00576.L/uid___A002_X13012c9_X3164.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    6	ngc7793/2025.1.00576.L/uid___A002_X13012c9_Xb0a9.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    7	ngc7793/2025.1.00576.L/uid___A002_X13012c9_Xbb65.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    8	ngc7793/2025.1.00576.L/uid___A002_X13012c9_Xc4b9.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    9	ngc7793/2025.1.00576.L/uid___A002_X1305409_X13d3.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    10	ngc7793/2025.1.00576.L/uid___A002_X1305409_X6a85.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    11	ngc7793/2025.1.00576.L/uid___A002_X1305409_X6e87.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    12	ngc7793/2025.1.00576.L/uid___A002_X1305409_X7224.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        7m	    13	ngc7793/2025.1.00576.L/uid___A002_X1305409_Xd1a.ms.split.cal
+ngc7793_1	        2025.1.00576.L	NGC_7793a	        tp	    1	ngc7793/2025.1.00576.L/member.uid___A001_X3841_X117
+
+ngc7793_2	        2025.1.00576.L	NGC7793b	        12m_1	1	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X974a.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        12m_1	2	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X178ea.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        12m_1	3	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X18d52.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        12m_1	4	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_Xc45a.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        12m_1	5	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_Xd0b6.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        12m_1	6	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_Xdbfa.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        12m_2	1	ngc7793/2025.1.00576.L/uid___A002_X1366160_X8d93.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        12m_2	2	ngc7793/2025.1.00576.L/uid___A002_X1366160_X945a.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    1	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X16729.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    2	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X16ad6.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    3	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X2139.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    4	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X2d4a.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    5	ngc7793/2025.1.00576.L/uid___A002_X13012c9_X3164.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    6	ngc7793/2025.1.00576.L/uid___A002_X13012c9_Xb0a9.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    7	ngc7793/2025.1.00576.L/uid___A002_X13012c9_Xbb65.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    8	ngc7793/2025.1.00576.L/uid___A002_X13012c9_Xc4b9.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    9	ngc7793/2025.1.00576.L/uid___A002_X1305409_X13d3.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    10	ngc7793/2025.1.00576.L/uid___A002_X1305409_X6a85.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    11	ngc7793/2025.1.00576.L/uid___A002_X1305409_X6e87.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    12	ngc7793/2025.1.00576.L/uid___A002_X1305409_X7224.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        7m	    13	ngc7793/2025.1.00576.L/uid___A002_X1305409_Xd1a.ms.split.cal
+ngc7793_2	        2025.1.00576.L	NGC7793b	        tp	    1	ngc7793/2025.1.00576.L/member.uid___A001_X3841_X117
+
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X17fd7.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X1854d.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X19559.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	4	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X21d11.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	5	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X223bc.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc7793/2025.1.00576.L/uid___A002_X136804d_Xb36e.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc7793/2025.1.00576.L/uid___A002_X136804d_Xbf7e.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc7793/2025.1.00576.L/uid___A002_X12f828c_X107dd.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc7793/2025.1.00576.L/uid___A002_X12f828c_X1fe4c.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc7793/2025.1.00576.L/uid___A002_X12f828c_X209d5.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc7793/2025.1.00576.L/uid___A002_X12f828c_X21304.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc7793/2025.1.00576.L/uid___A002_X12f828c_Xfa92.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X2a4f.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    7	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X2f75.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    8	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X3561.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    9	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X8342.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    10	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X8cc1.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    11	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X99b2.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    12	ngc7793/2025.1.00576.L/uid___A002_X12fb842_Xa377.ms.split.cal
+ngc7793_3	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc7793/2025.1.00576.L/member.uid___A001_X3841_X121
+
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	1	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X11b30.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	2	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X121fc.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	3	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X19e64.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	4	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X93a7.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_1	5	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X9c97.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	1	ngc7793/2025.1.00576.L/uid___A002_X1366160_X8305.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	2	ngc7793/2025.1.00576.L/uid___A002_X13786d6_X68a8.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	12m_2	3	ngc7793/2025.1.00576.L/uid___A002_X137905e_X7ede.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc7793/2025.1.00576.L/uid___A002_X130a07a_X11787.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc7793/2025.1.00576.L/uid___A002_X130a07a_X120cf.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc7793/2025.1.00576.L/uid___A002_X130a07a_X12581.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc7793/2025.1.00576.L/uid___A002_X130a07a_X1603b.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc7793/2025.1.00576.L/uid___A002_X130a07a_X1d4c6.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc7793/2025.1.00576.L/uid___A002_X130f861_Xa350.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    7	ngc7793/2025.1.00576.L/uid___A002_X130f861_Xa896.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    8	ngc7793/2025.1.00576.L/uid___A002_X130f861_Xad90.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    9	ngc7793/2025.1.00576.L/uid___A002_X1311c26_X32ee.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    10	ngc7793/2025.1.00576.L/uid___A002_X1311c26_X3cac.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    11	ngc7793/2025.1.00576.L/uid___A002_X1311c26_X434e.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    12	ngc7793/2025.1.00576.L/uid___A002_X13128dc_X13b25.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    13	ngc7793/2025.1.00576.L/uid___A002_X13128dc_X1452b.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    14	ngc7793/2025.1.00576.L/uid___A002_X13128dc_X1980.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    15	ngc7793/2025.1.00576.L/uid___A002_X13128dc_X23ca.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    16	ngc7793/2025.1.00576.L/uid___A002_X13128dc_X2d85.ms.split.cal
+ngc7793_4	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc7793/2025.1.00576.L/member.uid___A001_X3841_X12b
+
+ngc7793_5	        2015.1.00782.S	all	                12m_1	1	ngc7793/2015.1.00782.S/uid___A002_Xb17f5f_X968.ms.split.cal
+ngc7793_5	        2015.1.00782.S	all	                12m_1	2	ngc7793/2015.1.00782.S/uid___A002_Xb2b000_X84e4.ms.split.cal
+ngc7793_5	        2015.1.00782.S	all	                12m_1	3	ngc7793/2015.1.00782.S/uid___A002_Xb2e94e_X5083.ms.split.cal
+ngc7793_5	        2015.1.00782.S	all	                12m_1	4	ngc7793/2015.1.00782.S/uid___A002_Xb2f730_X8dee.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    1	ngc7793/2025.1.00576.L/uid___A002_X1315235_X125b8.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    2	ngc7793/2025.1.00576.L/uid___A002_X1315235_X1ba2e.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    3	ngc7793/2025.1.00576.L/uid___A002_X1318d6f_X1085b.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    4	ngc7793/2025.1.00576.L/uid___A002_X1318d6f_X10e7f.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    5	ngc7793/2025.1.00576.L/uid___A002_X1318d6f_X115a5.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    6	ngc7793/2025.1.00576.L/uid___A002_X1318d6f_X72db.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    7	ngc7793/2025.1.00576.L/uid___A002_X1318d6f_X8c12.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    8	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X14be1.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    9	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X15061.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    10	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X15824.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    11	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X1d0fa.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    12	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X1d579.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    13	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X1dad7.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    14	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X1e32b.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    15	ngc7793/2025.1.00576.L/uid___A002_X131acd3_Xb8fb.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    16	ngc7793/2025.1.00576.L/uid___A002_X131acd3_Xc1ae.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    17	ngc7793/2025.1.00576.L/uid___A002_X131acd3_Xcbb2.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    18	ngc7793/2025.1.00576.L/uid___A002_X131e84e_X5fb.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	7m	    19	ngc7793/2025.1.00576.L/uid___A002_X131e84e_Xf00.ms.split.cal
+ngc7793_5	        2025.1.00576.L	/^((?!_FluxRef).)*/	tp	    1	ngc7793/2025.1.00576.L/member.uid___A001_X3841_X131
+
+### NGC7793 FLUX REFERENCE ###
+
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X974a.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X178ea.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X18d52.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	4	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_Xc45a.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	5	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_Xd0b6.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	6	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_Xdbfa.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc7793/2025.1.00576.L/uid___A002_X1366160_X8d93.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc7793/2025.1.00576.L/uid___A002_X1366160_X945a.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X16729.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X16ad6.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X2139.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc7793/2025.1.00576.L/uid___A002_X12fdb0e_X2d4a.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc7793/2025.1.00576.L/uid___A002_X13012c9_X3164.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc7793/2025.1.00576.L/uid___A002_X13012c9_Xb0a9.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    7	ngc7793/2025.1.00576.L/uid___A002_X13012c9_Xbb65.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    8	ngc7793/2025.1.00576.L/uid___A002_X13012c9_Xc4b9.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    9	ngc7793/2025.1.00576.L/uid___A002_X1305409_X13d3.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    10	ngc7793/2025.1.00576.L/uid___A002_X1305409_X6a85.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    11	ngc7793/2025.1.00576.L/uid___A002_X1305409_X6e87.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    12	ngc7793/2025.1.00576.L/uid___A002_X1305409_X7224.ms.split.cal
+ngc7793_1_flux_ref	2025.1.00576.L	*FluxRef	        7m	    13	ngc7793/2025.1.00576.L/uid___A002_X1305409_Xd1a.ms.split.cal
+
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X17fd7.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X1854d.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X19559.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	4	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X21d11.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	5	ngc7793/2025.1.00576.L/uid___A002_X1344b1c_X223bc.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc7793/2025.1.00576.L/uid___A002_X136804d_Xb36e.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc7793/2025.1.00576.L/uid___A002_X136804d_Xbf7e.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc7793/2025.1.00576.L/uid___A002_X12f828c_X107dd.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc7793/2025.1.00576.L/uid___A002_X12f828c_X1fe4c.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc7793/2025.1.00576.L/uid___A002_X12f828c_X209d5.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc7793/2025.1.00576.L/uid___A002_X12f828c_X21304.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc7793/2025.1.00576.L/uid___A002_X12f828c_Xfa92.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X2a4f.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    7	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X2f75.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    8	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X3561.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    9	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X8342.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    10	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X8cc1.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    11	ngc7793/2025.1.00576.L/uid___A002_X12fb842_X99b2.ms.split.cal
+ngc7793_3_flux_ref	2025.1.00576.L	*FluxRef	        7m	    12	ngc7793/2025.1.00576.L/uid___A002_X12fb842_Xa377.ms.split.cal
+
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	1	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X11b30.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	2	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X121fc.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	3	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X19e64.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	4	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X93a7.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_1	5	ngc7793/2025.1.00576.L/uid___A002_X133dde2_X9c97.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	1	ngc7793/2025.1.00576.L/uid___A002_X1366160_X8305.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	2	ngc7793/2025.1.00576.L/uid___A002_X13786d6_X68a8.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        12m_2	3	ngc7793/2025.1.00576.L/uid___A002_X137905e_X7ede.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc7793/2025.1.00576.L/uid___A002_X130a07a_X11787.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc7793/2025.1.00576.L/uid___A002_X130a07a_X120cf.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc7793/2025.1.00576.L/uid___A002_X130a07a_X12581.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc7793/2025.1.00576.L/uid___A002_X130a07a_X1603b.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc7793/2025.1.00576.L/uid___A002_X130a07a_X1d4c6.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc7793/2025.1.00576.L/uid___A002_X130f861_Xa350.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    7	ngc7793/2025.1.00576.L/uid___A002_X130f861_Xa896.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    8	ngc7793/2025.1.00576.L/uid___A002_X130f861_Xad90.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    9	ngc7793/2025.1.00576.L/uid___A002_X1311c26_X32ee.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    10	ngc7793/2025.1.00576.L/uid___A002_X1311c26_X3cac.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    11	ngc7793/2025.1.00576.L/uid___A002_X1311c26_X434e.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    12	ngc7793/2025.1.00576.L/uid___A002_X13128dc_X13b25.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    13	ngc7793/2025.1.00576.L/uid___A002_X13128dc_X1452b.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    14	ngc7793/2025.1.00576.L/uid___A002_X13128dc_X1980.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    15	ngc7793/2025.1.00576.L/uid___A002_X13128dc_X23ca.ms.split.cal
+ngc7793_4_flux_ref	2025.1.00576.L	*FluxRef	        7m	    16	ngc7793/2025.1.00576.L/uid___A002_X13128dc_X2d85.ms.split.cal
+
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    1	ngc7793/2025.1.00576.L/uid___A002_X1315235_X125b8.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    2	ngc7793/2025.1.00576.L/uid___A002_X1315235_X1ba2e.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    3	ngc7793/2025.1.00576.L/uid___A002_X1318d6f_X1085b.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    4	ngc7793/2025.1.00576.L/uid___A002_X1318d6f_X10e7f.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    5	ngc7793/2025.1.00576.L/uid___A002_X1318d6f_X115a5.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    6	ngc7793/2025.1.00576.L/uid___A002_X1318d6f_X72db.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    7	ngc7793/2025.1.00576.L/uid___A002_X1318d6f_X8c12.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    8	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X14be1.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    9	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X15061.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    10	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X15824.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    11	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X1d0fa.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    12	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X1d579.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    13	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X1dad7.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    14	ngc7793/2025.1.00576.L/uid___A002_X131acd3_X1e32b.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    15	ngc7793/2025.1.00576.L/uid___A002_X131acd3_Xb8fb.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    16	ngc7793/2025.1.00576.L/uid___A002_X131acd3_Xc1ae.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    17	ngc7793/2025.1.00576.L/uid___A002_X131acd3_Xcbb2.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    18	ngc7793/2025.1.00576.L/uid___A002_X131e84e_X5fb.ms.split.cal
+ngc7793_5_flux_ref	2025.1.00576.L	*FluxRef	        7m	    19	ngc7793/2025.1.00576.L/uid___A002_X131e84e_Xf00.ms.split.cal
+
+### NEW KEYS WILL BE ADDED HERE ###

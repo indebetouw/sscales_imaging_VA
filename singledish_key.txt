@@ -1,0 +1,70 @@
+##########################################################################
+# SINGLEDISH KEY
+##########################################################################
+
+# Key to define files holding user-supplied single dish FITS files.
+
+# Currently (and for the foreseeable future) single dish FITS files
+# are created by an independent total power pipeline (see link in
+# pipeline paper and global pipeline README). The pipeline requires
+# that any single dish data used for feathering be provided by the
+# user. This file defines the locations of those data and maps them to
+# a target and product.
+ 
+# The syntax for the key is space or tab delimited:
+
+# Column 1: target name
+# Column 2: spectral product for this single dish image cube.
+# Column 3: file name 
+
+# The filename is searched for under the 'singledish_root' parent
+# directory defined in the master_key.
+
+##########################################################################
+
+#ngc5236_5 co21 ngc5236/2025.1.00576.L/science_goal.uid___A001_X3841_X7b/group.uid___A001_X3841_X7c/member.uid___A001_X3841_X83/product/member.uid___A001_X3841_X83.NGC_5236_sci.spw21.cube.I.sd.fits
+#ngc5236_6 co21 ngc5236/member.uid___A001_X3841_X8d.NGC_5236_sci.spw21.cube.I.sd.fits
+# ngc5236_5 co21   ngc5236/singledish/ngc5236_5_tp_co21.fits
+
+# ngc5236_6 co21   ngc5236/singledish/ngc5236_6_tp_co21.fits
+# ngc5236_5 13co21 ngc5236/singledish/member.uid___A001_X3841_X83.NGC_5236_sci.spw19.cube.I.sd.fits
+
+ngc5236_1  co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_2  co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_3  co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_4  co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_5  co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_6  co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_7  co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_8  co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_9  co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_10 co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_11 co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+ngc5236_12 co21 ngc5236/singledish/ngc5236_tp_co21_mosaic_rebase1.fits
+
+ngc5236_1 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_2 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_3 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_4 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_5 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_6 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_7 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_8 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_9 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_10 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_11 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+ngc5236_12 13co21 ngc5236/singledish/ngc5236_tp_13co21_mosaic_rebase1.fits
+
+ngc5236_1  c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_2  c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_3  c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_4  c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_5  c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_6  c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_7  c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_8  c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_9  c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_10 c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_11 c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+ngc5236_12 c18o21 ngc5236/singledish/ngc5236_tp_c18o21_mosaic_rebase1.fits
+
