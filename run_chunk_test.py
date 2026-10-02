@@ -293,7 +293,6 @@ if do_postprocess:
 
 if do_derived:
     import astropy
-    import spectral_cube
 
     this_der = der.DerivedHandler(key_handler=this_kh)
     this_der.set_no_feather_configs(True)

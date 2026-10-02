@@ -350,7 +350,7 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
             echo "Derived products already exist for ${job_tag}; skipping D submission."
         else
             export stagestring='D'
-            submit_sbatch DERIVED_ID --parsable --ntasks=1 --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch DERIVED_ID --parsable --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
             echo "Submitted Derived job '${job_tag}_derived' ${DERIVED_ID}"
         fi
         exit $?
@@ -366,7 +366,7 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
             echo "Derived products already exist for ${job_tag}; skipping D submission."
         else
             export stagestring='D'
-            submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --ntasks=1 --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
             echo "Submitted Derived job '${job_tag}_derived' ${DERIVED_ID}"
         fi
         exit $?
@@ -390,7 +390,7 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
                 echo "Derived products already exist for ${job_tag}; skipping D submission."
             else
                 export stagestring='D'
-                submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=1 --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+                submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
                 echo "Submitted Derived job '${job_tag}_derived' ${DERIVED_ID}"
             fi
 
@@ -413,7 +413,7 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
             echo "Derived products already exist for ${job_tag}; skipping D submission."
         else
             export stagestring='D'
-            submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=1 --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
             echo "Submitted Derived job '${job_tag}_derived' ${DERIVED_ID}"
         fi
 
@@ -446,7 +446,7 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
         echo "Derived products already exist for ${job_tag}; skipping D submission."
     else
         export stagestring='D'
-        submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=1 --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+        submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
         echo "Submitted Derived job '${job_tag}_derived' ${DERIVED_ID}"
     fi
 
@@ -455,7 +455,7 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
 fi
 
 # Edit these lines to point to correct directory and galaxy name
-export code_dir='/lustre/cv/users/rindebet/local/github/phangs_imaging_scripts/NRAO/'
+export code_dir='/lustre/cv/users/rindebet/local/github/sscales_imaging_VA/'
 # export casadir='/lustre/cv/users/rindebet/casa/casa-6.7.5-10-pipeline-2026.1.1.7-py3.12.el8/'
 # Target and product are read from command line as:
 #   run_chunked.bash <target> <product>
@@ -491,6 +491,8 @@ echo "calling ${code_dir}/run_chunk.py $target $config $product $stagestring $SL
 
 if [[ "$stage_mode" == "I" ]]; then
     OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 TMPDIR="$job_workdir" mpirun --mca btl_vader_single_copy_mechanism none -x OMP_NUM_THREADS -x OPENBLAS_NUM_THREADS -x TMPDIR -n 4 python ${code_dir}/run_chunk.py $target $config $product $stagestring $SLURM_ARRAY_TASK_ID
+elif [[ "$stage_mode" == "D" ]]; then
+    OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 TMPDIR="$job_workdir" mpirun --mca btl_vader_single_copy_mechanism none -x OMP_NUM_THREADS -x OPENBLAS_NUM_THREADS -x TMPDIR -n 8 python ${code_dir}/run_chunk.py $target $config $product $stagestring $SLURM_ARRAY_TASK_ID
 else
     OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 TMPDIR="$job_workdir" python ${code_dir}/run_chunk.py $target $config $product $stagestring $SLURM_ARRAY_TASK_ID    
 fi

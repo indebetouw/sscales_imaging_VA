@@ -33,8 +33,8 @@ casalog.showconsole(True)
 print("Starting run_chunk.py")
 
 # Locate the master key
-sdir = '/lustre/cv/users/rindebet/local/github/phangs_imaging_scripts/'
-key_file = sdir+'NRAO/master_key_sscales.txt'
+sdir = '/lustre/cv/users/rindebet/local/github/sscales_imaging_VA/'
+key_file = sdir+'master_key_sscales.txt'
 sys.path.append(os.path.expanduser(sdir))
 sys.path.append(os.path.expanduser("/home/casa/contrib/bitbucket/AIV/analysis_scripts/"))
 chunksize = 40

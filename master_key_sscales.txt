@@ -176,7 +176,7 @@
 
 # Locations
 
-key_dir        	    /lustre/cv/users/rindebet/local/github/phangs_imaging_scripts/NRAO/
+key_dir        	    /lustre/cv/users/rindebet/local/github/sscales_imaging_VA/
 cleanmask_root		/lustre/cv/users/rindebet/galaxies/array_reduction/cleanmasks/
 imaging_root		/lustre/cv/users/rindebet/galaxies/array_reduction/
 postprocess_root	/lustre/cv/users/rindebet/galaxies/array_reduction/post/

@@ -1,5 +1,6 @@
 import os
 import re
+import shutil
 import sys
 from glob import glob
 
@@ -9,21 +10,23 @@ from casatasks import casalog
 import casampi.private.start_mpi
 from casampi.MPIEnvironment import MPIEnvironment
 
+sys.path.append(os.path.expanduser("/home/casa/contrib/bitbucket/AIV/analysis_scripts/"))
+
 # TODO hook up the logger correctly
 print("MPI server rank list: {}".format(MPIEnvironment.mpi_server_rank_list()))
 
 casalog.showconsole(True)
 
 # Locate the master key
-sdir = '/lustre/cv/users/rindebet/local/github/phangs_imaging_scripts/'
-key_file = sdir + 'NRAO/master_key_sscales.txt'
+sdir = '/lustre/cv/users/rindebet/local/github/sscales_imaging_VA/'
+key_file = sdir + 'master_key_sscales.txt'
 sys.path.append(os.path.expanduser(sdir))
 sys.path.append(os.path.expanduser('/home/casa/contrib/bitbucket/AIV/analysis_scripts/'))
 
 from phangsPipeline import handlerDerived as der
 from phangsPipeline import handlerKeys as kh
+from phangsPipeline import handlerPostprocess as pp
 from phangsPipeline import phangsLogger as pl
-# from phangsPipeline import handlerPostprocess as pp
 from phangsPipeline.scMosaicRoutines import (
     common_grid_for_mosaic,
     common_res_for_mosaic,
@@ -42,6 +45,7 @@ CONFIG_OVERRIDE = None
 
 CONVOLVE_METHOD = 'convolve_uv'
 RUN_DERIVED = True
+RECALCULATE = False
 
 
 def discover_post_parts(target, post_root):
@@ -65,17 +69,16 @@ def infer_config(post_root, parts, product):
 
     part_configs = []
     for part in parts:
-        part_dir = os.path.join(post_root, part, part)
+        part_dir = os.path.join(post_root, part)
         pattern = os.path.join(part_dir, f'{part}_*_{product}_pbcorr_round.image.fits')
         matches = [os.path.basename(m) for m in glob(pattern)]
         if len(matches) == 0:
-            raise FileNotFoundError(
-                f'No pbcorr_round FITS found for part {part} and product {product} in {part_dir}'
-            )
+            print(f'No pbcorr_round FITS found for part {part} and product {product} in {part_dir}')
+            continue
 
         configs_this_part = set()
         for name in matches:
-            pattern_re = rf'^{re.escape(part)}_(.+)_{re.escape(product)}_pbcorr_round\\.image\\.fits$'
+            pattern_re = rf'^{re.escape(part)}_(.+)_{re.escape(product)}_pbcorr_round\.image\.fits$'
             match = re.match(pattern_re, name)
             if match:
                 configs_this_part.add(match.group(1))
@@ -135,7 +138,19 @@ def main():
     print(f'Using parts: {", ".join(parts)}')
     print(f'Postprocess root: {post_root}')
 
-    part_dirs = [os.path.join(post_root, part, part) for part in parts]
+    part_dirs = [os.path.join(post_root, part) for part in parts]
+    newparts=parts.copy()
+    newpart_dirs=part_dirs.copy()
+
+    for part, part_dir in zip(parts, part_dirs):
+        pbcorr_round = os.path.join(part_dir, cube_name(part, config, PRODUCT, tag='pbcorr_round'))
+
+        if not os.path.exists(pbcorr_round):
+            newparts.pop(newparts.index(part))
+            newpart_dirs.pop(newpart_dirs.index(part_dir))
+    parts=newparts
+    part_dirs=newpart_dirs
+
 
     in_pbcorr_round = [
         os.path.join(part_dir, cube_name(part, config, PRODUCT, tag='pbcorr_round'))
@@ -157,13 +172,43 @@ def main():
     #     out_tag='linmos_commonres',
     #     check_files=True,
     # )
-    common_res_for_mosaic(
-        infile_list=in_pbcorr_round,
-        outfile_list=out_commonres,
-        do_convolve=True,
-        convolve_fn=CONVOLVE_METHOD,
-        overwrite=True,
-    )
+    missing_in_commonres = []
+    missing_out_commonres = []
+    existing_commonres = []
+
+    for part, in_cube, out_cube in zip(parts, in_pbcorr_round, out_commonres):
+        if os.path.exists(out_cube):
+            existing_commonres.append(part)
+        else:
+            missing_in_commonres.append(in_cube)
+            missing_out_commonres.append(out_cube)
+
+    if RECALCULATE:
+        print('RECALCULATE=True: forcing full linmos_commonres recomputation for all parts.')
+        common_res_for_mosaic(
+            infile_list=in_pbcorr_round,
+            outfile_list=out_commonres,
+            do_convolve=True,
+            convolve_fn=CONVOLVE_METHOD,
+            overwrite=True,
+        )
+    else:
+        if len(existing_commonres) > 0:
+            print(
+                'Reusing existing linmos_commonres for parts: '
+                + ', '.join(existing_commonres)
+            )
+
+        if len(missing_out_commonres) > 0:
+            common_res_for_mosaic(
+                infile_list=missing_in_commonres,
+                outfile_list=missing_out_commonres,
+                do_convolve=True,
+                convolve_fn=CONVOLVE_METHOD,
+                overwrite=True,
+            )
+        else:
+            print('All linmos_commonres files already exist; skipping common_res_for_mosaic.')
 
     in_align = []
     out_align = []
@@ -191,14 +236,38 @@ def main():
     #     out_tags=['linmos_aligned', 'pb_aligned'],
     #     check_files=True,
     # )
-    common_grid_for_mosaic(
-        infile_list=in_align,
-        outfile_list=out_align,
-        template_name=template_name,
-        allow_big_image=False,
-        too_big_pix=1e4,
-        overwrite=True,
-    )
+    existing_grid = []
+    missing_in_align = []
+    missing_out_align = []
+
+    for part, part_dir, in_file, out_file in zip(parts, part_dirs, in_align, out_align):
+        if os.path.exists(out_file):
+            existing_grid.append(part)
+        else:
+            missing_in_align.append(in_file)
+            missing_out_align.append(out_file)
+
+    if RECALCULATE:
+        print('RECALCULATE=True: forcing full common-grid recomputation for all parts.')
+        common_grid_for_mosaic(
+            infile_list=in_align,
+            outfile_list=out_align,
+            template_name=template_name,
+            overwrite=True,
+        )
+    else:
+        if len(existing_grid) > 0:
+            print('Reusing existing linmos_aligned/pb_aligned files for parts: ' + ', '.join(existing_grid))
+
+        if len(missing_out_align) > 0:
+            common_grid_for_mosaic(
+                infile_list=missing_in_align,
+                outfile_list=missing_out_align,
+                template_name=template_name,
+                overwrite=True,
+            )
+        else:
+            print('All common-grid files already exist; skipping common_grid_for_mosaic.')
 
     aligned_images = []
     weight_images = []
@@ -213,25 +282,65 @@ def main():
     #     copy_weights=False,
     #     check_files=True,
     # )
+    existing_weight_parts = []
+    missing_weight_parts = []
+
     for part, part_dir in zip(parts, part_dirs):
         aligned = os.path.join(part_dir, cube_name(part, config, PRODUCT, tag='linmos_aligned'))
         pb_aligned = os.path.join(part_dir, cube_name(part, config, PRODUCT, tag='pb_aligned'))
         weight_aligned = os.path.join(part_dir, cube_name(part, config, PRODUCT, tag='weight_aligned'))
 
-        ok = generate_weight_file(
-            image_file=aligned,
-            input_file=pb_aligned,
-            input_type='pb',
-            outfile=weight_aligned,
-            scale_by_noise=True,
-            already_pbcorr=True,
-            overwrite=True,
-        )
-        if not ok:
-            raise RuntimeError(f'Failed generating weight file: {weight_aligned}')
+        if os.path.exists(weight_aligned):
+            existing_weight_parts.append(part)
+            aligned_images.append(aligned)
+            weight_images.append(weight_aligned)
+            continue
 
-        aligned_images.append(aligned)
-        weight_images.append(weight_aligned)
+        missing_weight_parts.append((part, aligned, pb_aligned, weight_aligned))
+
+    if RECALCULATE:
+        print('RECALCULATE=True: forcing full generate_weight_file recomputation for all parts.')
+        for part, part_dir in zip(parts, part_dirs):
+            aligned = os.path.join(part_dir, cube_name(part, config, PRODUCT, tag='linmos_aligned'))
+            pb_aligned = os.path.join(part_dir, cube_name(part, config, PRODUCT, tag='pb_aligned'))
+            weight_aligned = os.path.join(part_dir, cube_name(part, config, PRODUCT, tag='weight_aligned'))
+
+            ok = generate_weight_file(
+                image_file=aligned,
+                input_file=pb_aligned,
+                input_type='pb',
+                outfile=weight_aligned,
+                scale_by_noise=True,
+                already_pbcorr=True,
+                overwrite=True,
+            )
+            if not ok:
+                raise RuntimeError(f'Failed generating weight file: {weight_aligned}')
+
+            aligned_images.append(aligned)
+            weight_images.append(weight_aligned)
+    else:
+        if len(existing_weight_parts) > 0:
+            print('Reusing existing weight_aligned files for parts: ' + ', '.join(existing_weight_parts))
+
+        for part, aligned, pb_aligned, weight_aligned in missing_weight_parts:
+            ok = generate_weight_file(
+                image_file=aligned,
+                input_file=pb_aligned,
+                input_type='pb',
+                outfile=weight_aligned,
+                scale_by_noise=True,
+                already_pbcorr=True,
+                overwrite=True,
+            )
+            if not ok:
+                raise RuntimeError(f'Failed generating weight file: {weight_aligned}')
+
+            aligned_images.append(aligned)
+            weight_images.append(weight_aligned)
+
+        if len(missing_weight_parts) == 0:
+            print('All weight_aligned files already exist; skipping generate_weight_file.')
 
     mosaic_out = os.path.join(
         target_post_dir,
@@ -260,6 +369,45 @@ def main():
         raise RuntimeError('mosaic_aligned_data failed')
 
     print(f'Created mosaic: {mosaic_out}')
+
+    # The derived pipeline expects the postprocess products created by the
+    # standard postprocess steps: compress -> convert_jytok -> derived.
+    # Do not copy the round-image output directly; run the same postprocess
+    # routines that generate pbcorr_trimmed and pbcorr_trimmed_k in the target
+    # postprocess directory before the derived pass starts.
+    postprocess_handler = pp.PostProcessHandler(key_handler=this_kh)
+    postprocess_handler.set_targets(only=[TARGET])
+    postprocess_handler.set_interf_configs(only=[config])
+    postprocess_handler.set_feather_configs(only=[config])
+    postprocess_handler.set_line_products(only=[PRODUCT])
+    postprocess_handler.set_no_cont_products(True)
+
+    postprocess_handler.task_compress(
+        target=TARGET,
+        product=PRODUCT,
+        config=config,
+        imaging_method='sdintimaging',
+        postprocessing_method='spectralcube',
+        check_files=False,
+    )
+    postprocess_handler.task_convert_units(
+        target=TARGET,
+        product=PRODUCT,
+        config=config,
+        imaging_method='sdintimaging',
+        postprocessing_method='spectralcube',
+        check_files=False,
+    )
+
+    derived_input = os.path.join(
+        target_post_dir,
+        f'{TARGET}_{config}_{PRODUCT}_pbcorr_trimmed_k.fits',
+    )
+    if not os.path.exists(derived_input):
+        raise FileNotFoundError(
+            'Missing postprocess input for derived products after running task_compress/task_convert_units: '
+            f'{derived_input}'
+        )
 
     if RUN_DERIVED:
         derived_handler = der.DerivedHandler(key_handler=this_kh)

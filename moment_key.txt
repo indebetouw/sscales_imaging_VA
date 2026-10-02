@@ -126,6 +126,13 @@ broadtpeak5p0	ext_error	_broad_etpeak5p0
 broadtpeak5p0	round		1
 broadtpeak5p0	kwargs		{'window':'5.0km/s'}
 
+broadtpeak8p0	algorithm	tpeak
+broadtpeak8p0	mask		broadmask
+broadtpeak8p0	ext		    _broad_tpeak8p0
+broadtpeak8p0	ext_error	_broad_etpeak8p0
+broadtpeak8p0	round		1
+broadtpeak8p0	kwargs		{'window':'8.0km/s'}
+
 ##########################################################################
 # SECONDARY MOMENTS - THESE DEPEND ON OTHER MAPS AS INPUT
 ##########################################################################

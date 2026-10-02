@@ -98,7 +98,7 @@ all		all	phys_res	{'60pc':60.0,'90pc':90.0}
 # 12m+7m		cont	ang_res		{'2as':2.0}
 # 12m+7m		all	mask_configs	['12m+7m+tp']
 12m+7m		all	  moments		['strictmom0','strictmom1','strictmom2','strictew']
-12m+7m		all	  moments		['broadmom0','broadtpeak','broadtpeak5p0','broadmom1']
+12m+7m		all	  moments		['broadmom0','broadtpeak','broadtpeak8p0','broadmom1']
 # 12m+7m		co21	moments		['mom1wprior']
 # 12m+7m		co21	moments		['flatstrictmom0','flatbroadmom0']
 # 12m+7m		c18o21	moments		['strictmom0','broadmom0']
@@ -109,7 +109,7 @@ all		all	phys_res	{'60pc':60.0,'90pc':90.0}
 # 12m+7m+tp	c18o21	ang_res		{'2as':2.0}
 12m+7m+tp	all	mask_configs	[]
 12m+7m+tp	co21	moments		['strictmom0','strictmom1','strictmom2','strictew']
-12m+7m+tp	all	    moments		['broadmom0','broadtpeak','broadtpeak5p0','broadmom1']
+12m+7m+tp	all	    moments		['broadmom0','broadtpeak','broadtpeak8p0','broadmom1']
 #12m+7m+tp	co21	moments		['mom1wprior']
 #12m+7m+tp	co21	moments		['flatstrictmom0','flatbroadmom0']
 12m+7m+tp	c18o21	moments		['strictmom0','broadmom0']
@@ -120,7 +120,7 @@ all		all	phys_res	{'60pc':60.0,'90pc':90.0}
 7m		cont	ang_res		{'7p5as':7.5,'11as':11.0,'15as':15.0}
 7m		all	mask_configs	['7m+tp']
 7m		co21	moments		['strictmom0','strictmom1','strictmom2','strictew']
-7m		co21	moments		['broadmom0','broadtpeak','broadtpeak5p0','broadmom1']
+7m		co21	moments		['broadmom0','broadtpeak','broadtpeak8p0','broadmom1']
 #7m		co21	moments		['mom1wprior']
 #7m	    co21	moments		['flatstrictmom0','flatbroadmom0']
 7m		c18o21	moments		['strictmom0','broadmom0']
@@ -129,7 +129,7 @@ all		all	phys_res	{'60pc':60.0,'90pc':90.0}
 7m+tp		co21	ang_res		{'7p5as':7.5,'11as':11.0,'15as':15.0}
 7m+tp		c18o21	ang_res		{'7p5as':7.5,'11as':11.0,'15as':15.0}
 7m+tp		co21	moments		['strictmom0','strictmom1','strictmom2','strictew']
-7m+tp		co21	moments		['broadmom0','broadtpeak','broadtpeak5p0','broadmom1']
+7m+tp		co21	moments		['broadmom0','broadtpeak','broadtpeak8p0','broadmom1']
 #7m+tp		co21	moments		['mom1wprior']
 #7m+tp	    co21	moments		['flatstrictmom0','flatbroadmom0']
 7m+tp		c18o21	moments		['strictmom0','broadmom0']
