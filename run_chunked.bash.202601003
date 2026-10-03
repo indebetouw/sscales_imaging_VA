@@ -16,22 +16,9 @@ job_workdir='/lustre/cv/users/rindebet/galaxies/array_reduction/work'
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 dry_run_submit=false
 dry_run_counter=0
-
-# competed stages will be skipped if the final postprocessed product already exists. 
-# if you want to rerun starting from a specific stage, set first_stage_to_rerun to S, I, A, P, or D.
-# subsequent stages will all be rerun. 
-# Optional command-line form: run_chunked.bash <target> <product> rerun=S
-first_stage_to_rerun=""  # S, I, A, P, D
-
 # disable the derived-output guard so D is always re-submitted.
 # Set to false to skip D when derived products already exist.
 disable_derived_guard=true
-
-stages=("S" "I" "A" "P" "D")
-declare -A stage_rank=()
-for stage_index in "${!stages[@]}"; do
-    stage_rank["${stages[$stage_index]}"]="$stage_index"
-done
 
 submit_sbatch() {
     local __outvar="$1"
@@ -97,7 +84,7 @@ assembled_products_exist() {
     return 0
 }
 
-postprocessed_products_exist() {
+postprocessed_derived_input_exists() {
     local target_name="$1"
     local product_name="$2"
     local config_name="12m+7m+tp"
@@ -133,7 +120,7 @@ postprocessed_products_exist() {
         return 0
     fi
 
-    echo "Missing postprocessed product: $cube_path" >&2
+    echo "Missing postprocessed derived input: $cube_path" >&2
     return 1
 }
 
@@ -331,10 +318,6 @@ PY
 }
 
 
-
-
-
-# ==========================
 # Read target/product from CLI and submit with dynamic job naming when run
 # outside of an allocated Slurm job.
 if [[ -z "${SLURM_JOB_ID:-}" ]]; then
@@ -351,8 +334,6 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
     for arg in "$@"; do
         if [[ "$arg" == "--dry-run-submit" ]] || [[ "$arg" == "--dry" ]]; then
             dry_run_submit=true
-        elif [[ "$arg" == rerun=* ]]; then
-            first_stage_to_rerun="${arg#rerun=}"
         else
             sbatch_opts+=("$arg")
         fi
@@ -360,77 +341,115 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
     if [[ "$dry_run_submit" == true ]]; then
         echo "Dry-run submit mode enabled; no jobs will be submitted."
     fi
-
-    if [[ -n "${first_stage_to_rerun}" ]] && [[ ! " ${stages[*]} " =~ " ${first_stage_to_rerun} " ]]; then
-        echo "Invalid first_stage_to_rerun value: ${first_stage_to_rerun}. Must be one of: ${stages[*]}"
-        exit 1
-    fi
-    
-    if { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["S"] )); } && \
-       staged_ms_exists "${target_cli}" "${product_cli}"; then
-        echo "Staged MS already exists for ${job_tag}; skipping S submission."
-        STAGE_ID=""
-    else
-        export stagestring='S'
-        submit_sbatch STAGE_ID --parsable --ntasks=1 --job-name="${job_tag}_stage" "$0" "${target_cli}" "${product_cli}"
-        echo "Submitted Stage job '${job_tag}_stage' ${STAGE_ID}"
-    fi
-
-    if { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["I"] )); } && \
-       all_required_chunk_products_exist "${target_cli}" "${product_cli}"; then
-        echo "All required chunk products already exist for ${job_tag}; skipping I submission."
-        IMAGE_ID=""
-    else
-        export stagestring='I'
-        if [[ -n "${STAGE_ID}" ]]; then
-            submit_sbatch IMAGE_ID --parsable --dependency=afterok:${STAGE_ID} "${sbatch_opts[@]}" --job-name="${job_tag}" "$0" "${target_cli}" "${product_cli}"
+    # The assembly stage requires the final assembled image/cube products.
+    # The postprocess stage requires the final assembled cube and creates the
+    # pbcorr_trimmed_k input that the derived stage consumes.
+    if postprocessed_derived_input_exists "${target_cli}" "${product_cli}"; then
+        echo "Final postprocessed product already exists for ${job_tag}; skipping S, I, A, and P submissions."
+        if [[ "$disable_derived_guard" != true ]] && derived_products_exist "${target_cli}" "${product_cli}"; then
+            echo "Derived products already exist for ${job_tag}; skipping D submission."
         else
-            submit_sbatch IMAGE_ID --parsable "${sbatch_opts[@]}" --job-name="${job_tag}" "$0" "${target_cli}" "${product_cli}"
+            export stagestring='D'
+            submit_sbatch DERIVED_ID --parsable --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+            echo "Submitted Derived job '${job_tag}_derived' ${DERIVED_ID}"
         fi
-        echo "Submitted Imaging job '${job_tag}' ${IMAGE_ID}"
+        exit $?
     fi
 
-    if { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["A"] )); } && \
-       assembled_products_exist "${target_cli}" "${product_cli}"; then
-        echo "All required assembled products already exist for ${job_tag}; skipping A submission."
-        ASSEMBLY_ID=""
-    else
-        export stagestring='A'
-        if [[ -n "${IMAGE_ID}" ]]; then
-            submit_sbatch ASSEMBLY_ID --parsable --dependency=afterok:${IMAGE_ID} --ntasks=1 --job-name="${job_tag}_assemble" "$0" "${target_cli}" "${product_cli}"
-        else
-            submit_sbatch ASSEMBLY_ID --parsable --ntasks=1 --job-name="${job_tag}_assemble" "$0" "${target_cli}" "${product_cli}"
-        fi
-        echo "Submitted Assembly job '${job_tag}' ${ASSEMBLY_ID}"
-    fi
-
-    if { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["P"] )); } && \
-       postprocessed_products_exist "${target_cli}" "${product_cli}"; then
-        echo "All required postprocessed products already exist for ${job_tag}; skipping P submission."
-        POST_ID=""
-    else
+    if assembled_products_exist "${target_cli}" "${product_cli}"; then
+        echo "Final assembled products already exist for ${job_tag}; skipping S, I, and A submissions."
         export stagestring='P'
-        if [[ -n "${ASSEMBLY_ID}" ]]; then
-            submit_sbatch POST_ID --parsable --dependency=afterok:${ASSEMBLY_ID} --ntasks=1 --job-name="${job_tag}_post" "$0" "${target_cli}" "${product_cli}"
+        submit_sbatch POST_ID --parsable --ntasks=1 --job-name="${job_tag}_post" "$0" "${target_cli}" "${product_cli}"
+        echo "Submitted Postprocess job '${job_tag}_post' ${POST_ID}"
+
+        if [[ "$disable_derived_guard" != true ]] && derived_products_exist "${target_cli}" "${product_cli}"; then
+            echo "Derived products already exist for ${job_tag}; skipping D submission."
         else
-            submit_sbatch POST_ID --parsable --ntasks=1 --job-name="${job_tag}_post" "$0" "${target_cli}" "${product_cli}"
+            export stagestring='D'
+            submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+            echo "Submitted Derived job '${job_tag}_derived' ${DERIVED_ID}"
         fi
-        echo "Submitted Postprocess job '${job_tag}' ${POST_ID}"
+        exit $?
     fi
 
-    if { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["D"] )); } && \
-       derived_products_exist "${target_cli}" "${product_cli}"; then
-        echo "All required derived products already exist for ${job_tag}; skipping D submission."
-        DERIVED_ID=""
+    if staged_ms_exists "${target_cli}" "${product_cli}"; then
+        echo "Staged MS already exists for ${job_tag}; skipping S submission."
+
+        if all_required_chunk_products_exist "${target_cli}" "${product_cli}"; then
+            echo "All required chunk products already exist for ${job_tag}; skipping I submission."
+
+            export stagestring='A'
+            submit_sbatch ASSEMBLY_ID --parsable --ntasks=1 --job-name="${job_tag}_assemble" "$0" "${target_cli}" "${product_cli}"
+            echo "Submitted Assembly job '${job_tag}_assemble' ${ASSEMBLY_ID}"
+
+            export stagestring='P'
+            submit_sbatch POST_ID --parsable --dependency=afterok:${ASSEMBLY_ID} --ntasks=1 --job-name="${job_tag}_post" "$0" "${target_cli}" "${product_cli}"
+            echo "Submitted Postprocess job '${job_tag}_post' ${POST_ID}"
+
+            if [[ "$disable_derived_guard" != true ]] && derived_products_exist "${target_cli}" "${product_cli}"; then
+                echo "Derived products already exist for ${job_tag}; skipping D submission."
+            else
+                export stagestring='D'
+                submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+                echo "Submitted Derived job '${job_tag}_derived' ${DERIVED_ID}"
+            fi
+
+            exit $?
+        fi
+
+        export stagestring='I'
+        submit_sbatch ARRAY_ID --parsable "${sbatch_opts[@]}" --job-name="${job_tag}" "$0" "${target_cli}" "${product_cli}"
+        echo "Submitted Imaging job '${job_tag}' ${ARRAY_ID}"
+
+        export stagestring='A'
+        submit_sbatch ASSEMBLY_ID --parsable --dependency=afterok:${ARRAY_ID} --ntasks=1 --job-name="${job_tag}_assemble" "$0" "${target_cli}" "${product_cli}"
+        echo "Submitted Assembly job '${job_tag}_assemble' ${ASSEMBLY_ID}"
+
+        export stagestring='P'
+        submit_sbatch POST_ID --parsable --dependency=afterok:${ASSEMBLY_ID} --ntasks=1 --job-name="${job_tag}_post" "$0" "${target_cli}" "${product_cli}"
+        echo "Submitted Postprocess job '${job_tag}_post' ${POST_ID}"
+
+        if [[ "$disable_derived_guard" != true ]] && derived_products_exist "${target_cli}" "${product_cli}"; then
+            echo "Derived products already exist for ${job_tag}; skipping D submission."
+        else
+            export stagestring='D'
+            submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+            echo "Submitted Derived job '${job_tag}_derived' ${DERIVED_ID}"
+        fi
+
+        exit $?
+    fi
+
+    # Edit to do correct stage string
+    # S = staging
+    # I = imaging
+    # A = assemble
+    # P = postprocess
+    # D = derived
+    export stagestring='S'
+    submit_sbatch STAGE_ID --parsable --ntasks=1 --job-name="${job_tag}_stage" "$0" "${target_cli}" "${product_cli}"
+    echo "Submitted Stage job '${job_tag}_stage' ${STAGE_ID}"
+
+    export stagestring='I'
+    submit_sbatch ARRAY_ID --parsable --dependency=afterok:${STAGE_ID} "${sbatch_opts[@]}" --job-name="${job_tag}" "$0" "${target_cli}" "${product_cli}"
+    echo "Submitted Imaging job '${job_tag}' ${ARRAY_ID}"
+
+    export stagestring='A'
+    submit_sbatch ASSEMBLY_ID --parsable --dependency=afterok:${ARRAY_ID} --ntasks=1 --job-name="${job_tag}_assemble" "$0" "${target_cli}" "${product_cli}"
+    echo "Submitted Assembly job '${job_tag}_assemble' ${ASSEMBLY_ID}"
+
+    export stagestring='P'
+    submit_sbatch POST_ID --parsable --dependency=afterok:${ASSEMBLY_ID} --ntasks=1 --job-name="${job_tag}_post" "$0" "${target_cli}" "${product_cli}"
+    echo "Submitted Postprocess job '${job_tag}_post' ${POST_ID}"
+
+    if [[ "$disable_derived_guard" != true ]] && derived_products_exist "${target_cli}" "${product_cli}"; then
+        echo "Derived products already exist for ${job_tag}; skipping D submission."
     else
         export stagestring='D'
-        if [[ -n "${POST_ID}" ]]; then
-            submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
-        else
-            submit_sbatch DERIVED_ID --parsable --time=24:00:00 --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
-        fi
-        echo "Submitted Derived job '${job_tag}' ${DERIVED_ID}"
+        submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+        echo "Submitted Derived job '${job_tag}_derived' ${DERIVED_ID}"
     fi
+
 
 	exit $?
 fi

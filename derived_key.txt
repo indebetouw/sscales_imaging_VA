@@ -78,7 +78,8 @@ all		all	strictmask_kw	{'min_pix':None,'min_area':None}
 
 all		all	broadmask_kw	{}
 
-all		all	phys_res	{'60pc':60.0,'90pc':90.0}
+all		all	phys_res	{'60pc':60.0} 
+#'90pc':90.0
 
 #all		all	flatstrictmask_kw	{'window':'50km/s'}
 #all		all	flatbroadmask_kw	{'window':'50km/s'}

@@ -230,25 +230,25 @@ if do_imaging:
 
     # Guard against re-imaging by checking for chunk products in the
     # permanent imaging directory (not this run's temp dir).
-    guard_imh = ImagingChunkedHandler(target, config, product, this_kh,
-                                      chunksize=chunksize, imaging_method=imaging_method,
-                                      make_temp_dir=False)
-    chunk_image_root = guard_imh.chunk_params[chunk_num]['full_imagename']
-    if imaging_method == "sdintimaging":
-        expected_chunk_image = f"{chunk_image_root}.joint.cube.image"
-    elif imaging_method == "tclean":
-        expected_chunk_image = f"{chunk_image_root}.image"
-    else:
-        raise ValueError(f"Unsupported imaging_method for skip guard: {imaging_method}")
+    # guard_imh = ImagingChunkedHandler(target, config, product, this_kh,
+    #                                   chunksize=chunksize, imaging_method=imaging_method,
+    #                                   make_temp_dir=False)
+    # chunk_image_root = guard_imh.chunk_params[chunk_num]['full_imagename']
+    # if imaging_method == "sdintimaging":
+    #     expected_chunk_image = f"{chunk_image_root}.joint.cube.image"
+    # elif imaging_method == "tclean":
+    #     expected_chunk_image = f"{chunk_image_root}.image"
+    # else:
+    #     raise ValueError(f"Unsupported imaging_method for skip guard: {imaging_method}")
 
-    if os.path.exists(expected_chunk_image):
-        existing_image = expected_chunk_image
-        print(f"Chunk {chunk_num} already imaged: {existing_image}")
-        print("Skipping imaging for this chunk.")
-    else:
-        init_mpi_if_needed()
-        print(f"Chunk {chunk_num} of {this_imh.nchunks}")
-        this_imh.run_imaging(do_all=True, chunk_num=chunk_num)
+    # if os.path.exists(expected_chunk_image):
+    #     existing_image = expected_chunk_image
+    #     print(f"Chunk {chunk_num} already imaged: {existing_image}")
+    #     print("Skipping imaging for this chunk.")
+    # else:
+    init_mpi_if_needed()
+    print(f"Chunk {chunk_num} of {this_imh.nchunks}")
+    this_imh.run_imaging(do_all=True, chunk_num=chunk_num)
 
 if do_assemble:
     this_imh = ImagingChunkedHandler(target, config, product, this_kh,
