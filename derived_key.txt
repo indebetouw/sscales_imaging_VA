@@ -111,9 +111,10 @@ all		all	phys_res	{'60pc':60.0}
 12m+7m+tp	all	mask_configs	[]
 12m+7m+tp	co21	moments		['strictmom0','strictmom1','strictmom2','strictew']
 12m+7m+tp	all	    moments		['broadmom0','broadtpeak','broadtpeak8p0','broadmom1']
-#12m+7m+tp	co21	moments		['mom1wprior']
+12m+7m+tp	co21	moments		['mom1wprior']
 #12m+7m+tp	co21	moments		['flatstrictmom0','flatbroadmom0']
 12m+7m+tp	c18o21	moments		['strictmom0','broadmom0']
+12m+7m+tp	c18o21	moments		['flatstrictmom0','flatbroadmom0','flatbroadtpeak']
 
 7m		co21	phys_res	{'60pc':60.0,'90pc':90.0,'120pc':120.0,'150pc':150.0,'500pc':500.0,'750pc':750.0,'1kpc':1000.0}
 7m		co21	ang_res		{'7p5as':7.5,'11as':11.0,'15as':15.0}

@@ -23,9 +23,7 @@ key_file = sdir + 'master_key_sscales.txt'
 sys.path.append(os.path.expanduser(sdir))
 sys.path.append(os.path.expanduser('/home/casa/contrib/bitbucket/AIV/analysis_scripts/'))
 
-from phangsPipeline import handlerDerived as der
 from phangsPipeline import handlerKeys as kh
-from phangsPipeline import handlerPostprocess as pp
 from phangsPipeline import phangsLogger as pl
 from phangsPipeline.scMosaicRoutines import (
     common_grid_for_mosaic,
@@ -38,14 +36,13 @@ pl.setup_logger(level='DEBUG', logfile=None)
 
 
 TARGET = 'ngc5236'
-PRODUCT = 'co21'
+PRODUCT = 'c18o21'
 
 # Optional override. Set to None to infer from part filenames.
 CONFIG_OVERRIDE = None
 
 CONVOLVE_METHOD = 'convolve_uv'
-RUN_DERIVED = True
-RECALCULATE = False
+RECALCULATE = True
 
 
 def discover_post_parts(target, post_root):
@@ -369,69 +366,6 @@ def main():
         raise RuntimeError('mosaic_aligned_data failed')
 
     print(f'Created mosaic: {mosaic_out}')
-
-    # The derived pipeline expects the postprocess products created by the
-    # standard postprocess steps: compress -> convert_jytok -> derived.
-    # Do not copy the round-image output directly; run the same postprocess
-    # routines that generate pbcorr_trimmed and pbcorr_trimmed_k in the target
-    # postprocess directory before the derived pass starts.
-    postprocess_handler = pp.PostProcessHandler(key_handler=this_kh)
-    postprocess_handler.set_targets(only=[TARGET])
-    postprocess_handler.set_interf_configs(only=[config])
-    postprocess_handler.set_feather_configs(only=[config])
-    postprocess_handler.set_line_products(only=[PRODUCT])
-    postprocess_handler.set_no_cont_products(True)
-
-    postprocess_handler.task_compress(
-        target=TARGET,
-        product=PRODUCT,
-        config=config,
-        imaging_method='sdintimaging',
-        postprocessing_method='spectralcube',
-        check_files=False,
-    )
-    postprocess_handler.task_convert_units(
-        target=TARGET,
-        product=PRODUCT,
-        config=config,
-        imaging_method='sdintimaging',
-        postprocessing_method='spectralcube',
-        check_files=False,
-    )
-
-    derived_input = os.path.join(
-        target_post_dir,
-        f'{TARGET}_{config}_{PRODUCT}_pbcorr_trimmed_k.fits',
-    )
-    if not os.path.exists(derived_input):
-        raise FileNotFoundError(
-            'Missing postprocess input for derived products after running task_compress/task_convert_units: '
-            f'{derived_input}'
-        )
-
-    if RUN_DERIVED:
-        derived_handler = der.DerivedHandler(key_handler=this_kh)
-        derived_handler.set_targets(only=[TARGET])
-        derived_handler.set_interf_configs(only=[config])
-        derived_handler.set_feather_configs(only=[config])
-        derived_handler.set_line_products(only=[PRODUCT])
-        derived_handler.set_no_cont_products(True)
-
-        derived_handler.loop_derive_products(
-            do_convolve=True,
-            do_noise=True,
-            do_strictmask=True,
-            do_broadmask=True,
-            do_moments=True,
-            do_secondary=True,
-            do_vfield=False,
-            do_shuffling=False,
-            do_flatmask=False,
-            do_flatmaps=False,
-            make_directories=True,
-            overwrite=True,
-        )
-
 
 if __name__ == '__main__':
     main()

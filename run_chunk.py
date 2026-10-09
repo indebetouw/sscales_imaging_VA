@@ -46,9 +46,9 @@ stage_overwrite = False
 if len(sys.argv) != 6:
     # raise ValueError('SLURM processing requires exactly 3 command line arguments: target, stagestring, job_array_id')
 
-    target= 'ngc5236_4'  # default for testing
-    stagestring = 'P'  
-    chunk_num = 0  # default for testing
+    target= 'ngc5236_4' 
+    stagestring = 'APD' 
+    chunk_num = 0 
     config = "12m+7m"
     product = "c18o21"
 
@@ -111,7 +111,8 @@ if 'P' in stagestring:
     this_pph = pph.PostProcessHandler(key_handler=this_kh)
     this_pph.set_targets(only=[target])
     this_pph.set_interf_configs(only=[config])
-    this_pph.set_feather_configs(only=[config])
+    # this is required so that postprocess renames the files to 12m+7m+tp and derived can find them
+    this_pph.set_feather_configs(only=["12m+7m+tp"])
     this_pph.set_line_products(only=[product])
     this_pph.set_no_cont_products(True)
 

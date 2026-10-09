@@ -26,3 +26,4 @@
 # delimiter: ','
 # schema: astropy-2.0
 # target,window,vfield_file
+ngc5236,250,ngc5236_12m+7m+tp_co21_vfield.fits

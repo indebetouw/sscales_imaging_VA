@@ -10,7 +10,9 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mail-user=rindebet@nrao.edu
 #SBATCH --mail-type=ALL
-#SBATCH --partition=plwg,batch2
+#SBATCH --partition=plwg_low 
+
+# plwg,batch2
 
 job_workdir='/lustre/cv/users/rindebet/galaxies/array_reduction/work'
 script_dir="$(cd "$(dirname "$0")" && pwd)"
@@ -20,12 +22,8 @@ dry_run_counter=0
 # competed stages will be skipped if the final postprocessed product already exists. 
 # if you want to rerun starting from a specific stage, set first_stage_to_rerun to S, I, A, P, or D.
 # subsequent stages will all be rerun. 
-# Optional command-line form: run_chunked.bash <target> <product> rerun=S
+# Optional command-line form: run_chunked.bash <target> <product> --rerun=S
 first_stage_to_rerun=""  # S, I, A, P, D
-
-# disable the derived-output guard so D is always re-submitted.
-# Set to false to skip D when derived products already exist.
-disable_derived_guard=true
 
 stages=("S" "I" "A" "P" "D")
 declare -A stage_rank=()
@@ -339,9 +337,9 @@ PY
 # outside of an allocated Slurm job.
 if [[ -z "${SLURM_JOB_ID:-}" ]]; then
 	if [[ $# -lt 2 ]]; then
-        echo "Usage: $0 <target> <product> [sbatch options] [--dry-run-submit]"
-        echo "Example: $0 ngc5236_5 13co21 --array=0-5 --dry-run-submit"
-        exit 0
+        echo "Usage: $0 <target> <product> [--rerun=<stage>] [sbatch options] [--dry-run-submit]"
+        echo "Example: $0 ngc5236_5 13co21 --array=0-5 --rerun=I --dry-run-submit"
+        exit 1
 	fi
 	target_cli="$1"
 	product_cli="$2"
@@ -351,6 +349,8 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
     for arg in "$@"; do
         if [[ "$arg" == "--dry-run-submit" ]] || [[ "$arg" == "--dry" ]]; then
             dry_run_submit=true
+        elif [[ "$arg" == --rerun=* ]]; then
+            first_stage_to_rerun="${arg#--rerun=}"
         elif [[ "$arg" == rerun=* ]]; then
             first_stage_to_rerun="${arg#rerun=}"
         else
