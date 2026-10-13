@@ -10,7 +10,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mail-user=rindebet@nrao.edu
 #SBATCH --mail-type=ALL
-#SBATCH --partition=plwg_low 
+#SBATCH --partition=plwg,plwg_low 
 
 # plwg,batch2
 

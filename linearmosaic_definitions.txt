@@ -30,5 +30,17 @@
 
 # DELETE AFTER HERE FOR NEW PROJECT, FULL PHANGS-ALMA CASE FOLLOWS
 
-ngc5236	  ngc5236_5A
-ngc5236	  ngc5236_5B
+# ngc5236 is a linear mosaic target built from the existing part tiles.
+# Each entry maps the full mosaic target to one imaging part.
+ngc5236  ngc5236_1
+ngc5236  ngc5236_2
+ngc5236  ngc5236_3
+ngc5236  ngc5236_4
+ngc5236  ngc5236_5
+ngc5236  ngc5236_6
+ngc5236  ngc5236_7
+ngc5236  ngc5236_8
+ngc5236  ngc5236_9
+ngc5236  ngc5236_10
+ngc5236  ngc5236_11
+ngc5236  ngc5236_12

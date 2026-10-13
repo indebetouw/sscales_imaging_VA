@@ -39,6 +39,7 @@ sys.path.append(os.path.expanduser(sdir))
 sys.path.append(os.path.expanduser("/home/casa/contrib/bitbucket/AIV/analysis_scripts/"))
 chunksize = 40
 stage_overwrite = False
+redo_chunks = False   # TODO bring in as parameter from bash wrapper
 
 
 # Pass the target name from the cmd line
@@ -229,37 +230,49 @@ if do_imaging:
     if chunk_num >= this_imh.nchunks:
         raise ValueError(f"Chunk number {chunk_num} is greater than the number of chunks {this_imh.nchunks}")
 
-    # TODO implement another parameter passed from run_chunked.bash to allow skipping imaging for chunks that have already been imaged. This is useful for restarting a run after a failure or for running only a subset of chunks. The following code is commented out because it is not yet implemented.
-
     # Guard against re-imaging by checking for chunk products in the
     # permanent imaging directory (not this run's temp dir).
-    # guard_imh = ImagingChunkedHandler(target, config, product, this_kh,
-    #                                   chunksize=chunksize, imaging_method=imaging_method,
-    #                                   make_temp_dir=False)
-    # chunk_image_root = guard_imh.chunk_params[chunk_num]['full_imagename']
-    # if imaging_method == "sdintimaging":
-    #     expected_chunk_image = f"{chunk_image_root}.joint.cube.image"
-    # elif imaging_method == "tclean":
-    #     expected_chunk_image = f"{chunk_image_root}.image"
-    # else:
-    #     raise ValueError(f"Unsupported imaging_method for skip guard: {imaging_method}")
+    if redo_chunks:
+        # Wipe the specific chunk's existing image products before rerunning it.
+        # This keeps a rerun from leaving stale .image/.mask/.model/.residual/etc
+        # on disk for the same chunk when the new imaging is generated.
+        from phangsPipeline import casaImagingRoutines as imr
+        chunk_image_root = this_imh.chunk_params[chunk_num]['full_imagename']
+        print(f"Removing any existing imaging products for chunk {chunk_num}: {chunk_image_root}")
+        imr.wipe_imaging(image_root=chunk_image_root, imaging_method=imaging_method)
+    
 
-    # if os.path.exists(expected_chunk_image):
-    #     existing_image = expected_chunk_image
-    #     print(f"Chunk {chunk_num} already imaged: {existing_image}")
-    #     print("Skipping imaging for this chunk.")
-    # else:
-    # Wipe the specific chunk's existing image products before rerunning it.
-    # This keeps a rerun from leaving stale .image/.mask/.model/.residual/etc
-    # on disk for the same chunk when the new imaging is generated.
-    from phangsPipeline import casaImagingRoutines as imr
-    chunk_image_root = this_imh.chunk_params[chunk_num]['full_imagename']
-    print(f"Removing any existing imaging products for chunk {chunk_num}: {chunk_image_root}")
-    imr.wipe_imaging(image_root=chunk_image_root, imaging_method=imaging_method)
 
-    init_mpi_if_needed()
-    print(f"Chunk {chunk_num} of {this_imh.nchunks}")
-    this_imh.run_imaging(do_all=True, chunk_num=chunk_num)
+    # now check for existance of chunk - if it exists, skip imaging for this chunk
+    guard_imh = ImagingChunkedHandler(target, config, product, this_kh,
+                                      chunksize=chunksize, imaging_method=imaging_method,
+                                      make_temp_dir=False)
+    chunk_image_root = guard_imh.chunk_params[chunk_num]['full_imagename']
+    if imaging_method == "sdintimaging":
+        expected_chunk_image = f"{chunk_image_root}.joint.cube.image"
+    elif imaging_method == "tclean":
+        expected_chunk_image = f"{chunk_image_root}.image"
+    else:
+        raise ValueError(f"Unsupported imaging_method for skip guard: {imaging_method}")
+    
+    if os.path.exists(expected_chunk_image):
+        existing_image = expected_chunk_image
+        print(f"Chunk {chunk_num} already imaged: {existing_image}")
+        print("Skipping imaging for this chunk.")
+    else:
+        # Wipe the specific chunk's existing image products before rerunning it.
+        # This keeps a rerun from leaving stale .image/.mask/.model/.residual/etc
+        # on disk for the same chunk when the new imaging is generated.
+        from phangsPipeline import casaImagingRoutines as imr
+        chunk_image_root = this_imh.chunk_params[chunk_num]['full_imagename']
+        print(f"Removing any existing imaging products for chunk {chunk_num}: {chunk_image_root}")
+        imr.wipe_imaging(image_root=chunk_image_root, imaging_method=imaging_method)
+
+        init_mpi_if_needed()
+        print(f"Chunk {chunk_num} of {this_imh.nchunks}")
+        this_imh.run_imaging(do_all=True, chunk_num=chunk_num)
+
+
 
 if do_assemble:
     this_imh = ImagingChunkedHandler(target, config, product, this_kh,

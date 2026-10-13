@@ -26,7 +26,19 @@
 
 ##########################################################################
 
-# ngc5236_5	 ngc5236
-# ngc5236_6	 ngc5236
-# ngc5236_5	 ngc5236_sdint_mosF_40ch
-# ngc5236_6	 ngc5236_sdint_mosF_40ch
+# Make the target-directory mapping explicit so that each mosaic part stays in
+# its own directory (e.g. /post/ngc5236_1/), while the final mosaic remains in
+# /post/ngc5236/.
+ngc5236  ngc5236
+ngc5236_1  ngc5236_1
+ngc5236_2  ngc5236_2
+ngc5236_3  ngc5236_3
+ngc5236_4  ngc5236_4
+ngc5236_5  ngc5236_5
+ngc5236_6  ngc5236_6
+ngc5236_7  ngc5236_7
+ngc5236_8  ngc5236_8
+ngc5236_9  ngc5236_9
+ngc5236_10  ngc5236_10
+ngc5236_11  ngc5236_11
+ngc5236_12  ngc5236_12

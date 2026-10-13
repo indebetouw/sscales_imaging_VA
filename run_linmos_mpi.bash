@@ -1,6 +1,6 @@
 #!/bin/bash
 # Submit with:
-# sbatch --account=rindebet --time=72:00:00 --job-name=linmos_mpi_13co --chdir=/lustre/cv/users/rindebet/galaxies/array_reduction/work --output=/lustre/cv/users/rindebet/galaxies/array_reduction/work/%x_%A.out --error=/lustre/cv/users/rindebet/galaxies/array_reduction/work/%x_%A.err --ntasks=8 --mem=250G --cpus-per-task=1 --partition=plwg,batch2 /lustre/cv/users/rindebet/local/github/sscales_imaging_VA/run_linmos_mpi.bash
+# sbatch --account=rindebet --time=180:00:00 --job-name=linmos_mpi_co --chdir=/lustre/cv/users/rindebet/galaxies/array_reduction/work --output=/lustre/cv/users/rindebet/galaxies/array_reduction/work/%x_%A.out --error=/lustre/cv/users/rindebet/galaxies/array_reduction/work/%x_%A.err --ntasks=8 --mem=250G --cpus-per-task=1 --partition=plwg,batch2 /lustre/cv/users/rindebet/local/github/sscales_imaging_VA/run_linmos_mpi.bash
 
 set -euo pipefail
 

@@ -2,17 +2,18 @@ import os
 import sys
 from glob import glob
 
+# Locate the master key
+sdir = '/lustre/cv/users/rindebet/local/github/sscales_imaging_VA/'
+key_file = sdir + 'master_key_sscales.txt'
+sys.path.append(os.path.expanduser(sdir))
+# this has to be appended before importing phangsPipeline
+sys.path.append(os.path.expanduser('/home/casa/contrib/bitbucket/AIV/analysis_scripts/'))
+
 from phangsPipeline import handlerDerived as der
 from phangsPipeline import handlerKeys as kh
 from phangsPipeline import phangsLogger as pl
 from phangsPipeline import handlerPostprocess as pp
 
-
-# Locate the master key
-sdir = '/lustre/cv/users/rindebet/local/github/sscales_imaging_VA/'
-key_file = sdir + 'master_key_sscales.txt'
-sys.path.append(os.path.expanduser(sdir))
-sys.path.append(os.path.expanduser('/home/casa/contrib/bitbucket/AIV/analysis_scripts/'))
 
 pl.setup_logger(level='DEBUG', logfile=None)
 

@@ -7,6 +7,8 @@
 # ngc5236_6	        13h37m07.720s	-29d49m41.529s	514	    500
 
 # ### NGC5236 ###
+# Whole mosaic target and the component tile targets that are linearly combined
+# into the final ngc5236 mosaic in the postprocess stage.
 ngc5236	            13h37m01.0s	    -29d51m56s	    514	    508
 ngc5236_1	        13h36m43.540s	-29d50m55.268s	514	    508
 ngc5236_2	        13h36m52.988s	-29d49m29.325s	514	    508
