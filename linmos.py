@@ -16,7 +16,7 @@ casalog.showconsole(True)
 
 # Locate the master key
 sdir = '/lustre/cv/users/rindebet/local/github/sscales_imaging_VA/'
-key_file = sdir + 'master_key_sscales.txt'
+key_file = sdir + 'master_key_sscales_linmos.txt'
 sys.path.append(os.path.expanduser(sdir))
 sys.path.append(os.path.expanduser('/home/casa/contrib/bitbucket/AIV/analysis_scripts/'))
 sys.path.append('/lustre/cv/users/rindebet/local/github/phangs_imaging_scripts')
@@ -28,7 +28,7 @@ from phangsPipeline import phangsLogger as pl
 pl.setup_logger(level='DEBUG', logfile=None)
 
 TARGET = 'ngc5236'
-PRODUCT = 'co21'
+PRODUCT = 'c18o21'
 CONFIG = '12m+7m+tp'
 POSTPROCESS_CONFIG = '12m+7m+tp'
 CONVOLVE_METHOD = 'convolve_uv'

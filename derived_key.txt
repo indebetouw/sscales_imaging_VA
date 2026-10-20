@@ -79,6 +79,7 @@ all		all	strictmask_kw	{'min_pix':None,'min_area':None}
 all		all	broadmask_kw	{}
 
 all		all	phys_res	{'60pc':60.0} 
+all     all ang_res     {'0p7as':0.7}
 #'90pc':90.0
 
 #all		all	flatstrictmask_kw	{'window':'50km/s'}
@@ -103,7 +104,6 @@ all		all	phys_res	{'60pc':60.0}
 # 12m+7m		co21	moments		['mom1wprior']
 # 12m+7m		co21	moments		['flatstrictmom0','flatbroadmom0']
 # 12m+7m		c18o21	moments		['strictmom0','broadmom0']
-# 12m+7m      all   ang_res      {'1as':1.0}
 
 # 12m+7m+tp	co21	phys_res	{'60pc':60.0,'90pc':90.0,'120pc':120.0,'150pc':150.0,'500pc':500.0,'750pc':750.0,'1kpc':1000.0}
 # 12m+7m+tp	co21	ang_res		{'2as':2.0,'7p5as':7.5,'11as':11.0,'15as':15.0}

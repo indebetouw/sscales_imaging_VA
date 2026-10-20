@@ -1,6 +1,5 @@
 #!/bin/bash
 #SBATCH --account=rindebet
-#SBATCH --time=72:00:00
 #SBATCH --job-name=phangs_chunk
 #SBATCH --chdir=/lustre/cv/users/rindebet/galaxies/array_reduction/work
 #SBATCH --output=/lustre/cv/users/rindebet/galaxies/array_reduction/work/%x_%A_%a.out
@@ -18,6 +17,11 @@ job_workdir='/lustre/cv/users/rindebet/galaxies/array_reduction/work'
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 dry_run_submit=false
 dry_run_counter=0
+
+# Hard-coded Slurm time override shared by A/P/D stages.
+# Set to "0" for no time limit (subject to partition/QOS policy),
+# or set to "" to use Slurm/partition default time limits.
+apd_time_override="0"
 
 # competed stages will be skipped if the final postprocessed product already exists. 
 # if you want to rerun starting from a specific stage, set first_stage_to_rerun to S, I, A, P, or D.
@@ -337,8 +341,8 @@ PY
 # outside of an allocated Slurm job.
 if [[ -z "${SLURM_JOB_ID:-}" ]]; then
 	if [[ $# -lt 2 ]]; then
-        echo "Usage: $0 <target> <product> [--rerun=<stage>] [sbatch options] [--dry-run-submit]"
-        echo "Example: $0 ngc5236_5 13co21 --array=0-5 --rerun=I --dry-run-submit"
+    echo "Usage: $0 <target> <product> [--rerun=<stage>] [sbatch options] [--dry-run-submit]"
+    echo "Example: $0 ngc5236_5 13co21 --array=0-5 --rerun=I --dry-run-submit"
         exit 1
 	fi
 	target_cli="$1"
@@ -365,6 +369,10 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
         echo "Invalid first_stage_to_rerun value: ${first_stage_to_rerun}. Must be one of: ${stages[*]}"
         exit 1
     fi
+
+    if [[ -n "${apd_time_override}" ]]; then
+        echo "Shared A/P/D stage time override enabled: --time=${apd_time_override}"
+    fi
     
     if { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["S"] )); } && \
        staged_ms_exists "${target_cli}" "${product_cli}"; then
@@ -383,13 +391,18 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
     else
         export stagestring='I'
         if [[ -n "${STAGE_ID}" ]]; then
-            submit_sbatch IMAGE_ID --parsable --dependency=afterok:${STAGE_ID} "${sbatch_opts[@]}" --job-name="${job_tag}" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch IMAGE_ID --parsable --dependency=afterok:${STAGE_ID} "${sbatch_opts[@]}" "${apd_time_args[@]}" --job-name="${job_tag}" "$0" "${target_cli}" "${product_cli}"
         else
-            submit_sbatch IMAGE_ID --parsable "${sbatch_opts[@]}" --job-name="${job_tag}" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch IMAGE_ID --parsable "${sbatch_opts[@]}" "${apd_time_args[@]}" --job-name="${job_tag}" "$0" "${target_cli}" "${product_cli}"
         fi
         echo "Submitted Imaging job '${job_tag}' ${IMAGE_ID}"
     fi
 
+    apd_time_args=()
+    if [[ -n "${apd_time_override}" ]]; then
+        apd_time_args=("--time=${apd_time_override}")
+    fi
+        
     if { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["A"] )); } && \
        assembled_products_exist "${target_cli}" "${product_cli}"; then
         echo "All required assembled products already exist for ${job_tag}; skipping A submission."
@@ -397,9 +410,9 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
     else
         export stagestring='A'
         if [[ -n "${IMAGE_ID}" ]]; then
-            submit_sbatch ASSEMBLY_ID --parsable --dependency=afterok:${IMAGE_ID} --ntasks=1 --job-name="${job_tag}_assemble" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch ASSEMBLY_ID --parsable --dependency=afterok:${IMAGE_ID} --ntasks=1 "${apd_time_args[@]}" --job-name="${job_tag}_assemble" "$0" "${target_cli}" "${product_cli}"
         else
-            submit_sbatch ASSEMBLY_ID --parsable --ntasks=1 --job-name="${job_tag}_assemble" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch ASSEMBLY_ID --parsable --ntasks=1 "${apd_time_args[@]}" --job-name="${job_tag}_assemble" "$0" "${target_cli}" "${product_cli}"
         fi
         echo "Submitted Assembly job '${job_tag}' ${ASSEMBLY_ID}"
     fi
@@ -411,9 +424,9 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
     else
         export stagestring='P'
         if [[ -n "${ASSEMBLY_ID}" ]]; then
-            submit_sbatch POST_ID --parsable --dependency=afterok:${ASSEMBLY_ID} --ntasks=1 --job-name="${job_tag}_post" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch POST_ID --parsable --dependency=afterok:${ASSEMBLY_ID} --ntasks=1 "${apd_time_args[@]}" --job-name="${job_tag}_post" "$0" "${target_cli}" "${product_cli}"
         else
-            submit_sbatch POST_ID --parsable --ntasks=1 --job-name="${job_tag}_post" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch POST_ID --parsable --ntasks=1 "${apd_time_args[@]}" --job-name="${job_tag}_post" "$0" "${target_cli}" "${product_cli}"
         fi
         echo "Submitted Postprocess job '${job_tag}' ${POST_ID}"
     fi
@@ -425,9 +438,9 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
     else
         export stagestring='D'
         if [[ -n "${POST_ID}" ]]; then
-            submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --time=24:00:00 --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch DERIVED_ID --parsable --dependency=afterok:${POST_ID} --ntasks=8 --mem=250G "${apd_time_args[@]}" --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
         else
-            submit_sbatch DERIVED_ID --parsable --time=24:00:00 --ntasks=8 --mem=250G --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
+            submit_sbatch DERIVED_ID --parsable --ntasks=8 --mem=250G "${apd_time_args[@]}" --job-name="${job_tag}_derived" "$0" "${target_cli}" "${product_cli}"
         fi
         echo "Submitted Derived job '${job_tag}' ${DERIVED_ID}"
     fi
