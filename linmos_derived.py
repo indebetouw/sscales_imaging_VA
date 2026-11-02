@@ -15,7 +15,7 @@ from phangsPipeline import phangsLogger as pl
 pl.setup_logger(level='DEBUG', logfile=None)
 
 TARGET = 'ngc5236'
-PRODUCT = 'co21'
+PRODUCT = 'c18o21'
 CONFIG = '12m+7m+tp'
 RUN_DERIVED = True
 
@@ -32,21 +32,42 @@ def run_derived_only(key_handler, target, product, config, run_derived=True):
     if not run_derived:
         return
 
+    do_vfield = (product == 'co21')
+
+    # Pass 1: core derived products (round 1, plus round 2 where applicable).
+    # For non-CO products, skip secondary moments to avoid routing flat moments
+    # through the secondary-moment path.
     derived_handler.loop_derive_products(
         do_convolve=True,
         do_noise=True,
         do_strictmask=True,
         do_broadmask=True,
         do_moments=True,
-        do_secondary=True,
-        do_vfield=True,
+        do_secondary=do_vfield,
+        do_vfield=do_vfield,
+        do_shuffling=False,
+        do_flatmask=False,
+        do_flatmaps=False,
+        make_directories=True,
+        overwrite=True,
+    )
+
+    # Pass 2: flat products (round 3 / flatmask + flatmaps).
+    derived_handler.loop_derive_products(
+        do_convolve=False,
+        do_noise=False,
+        do_strictmask=False,
+        do_broadmask=False,
+        do_moments=False,
+        do_secondary=False,
+        do_vfield=False,
         do_shuffling=False,
         do_flatmask=True,
         do_flatmaps=True,
         make_directories=True,
         overwrite=True,
     )
-
+ 
 
 def main():
     key_handler = kh.KeyHandler(master_key=key_file)

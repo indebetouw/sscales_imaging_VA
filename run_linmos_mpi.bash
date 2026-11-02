@@ -14,11 +14,12 @@ conda activate phclean
 
 export OMP_NUM_THREADS=1
 export OPENBLAS_NUM_THREADS=1
-export TMPDIR="$job_workdir"
+#export TMPDIR="/lustre/naasc/sciops/comm/rindebet/tmp"
+export TMPDIR="/lustre/cv/users/rindebet/tmp"
 
 cd "$script_dir"
 
 mpirun --mca btl_vader_single_copy_mechanism none \
     -x OMP_NUM_THREADS -x OPENBLAS_NUM_THREADS -x TMPDIR \
     -n 8 \
-    python "$script_dir/linmos.py"
+    python "$script_dir/linmos_derived.py"

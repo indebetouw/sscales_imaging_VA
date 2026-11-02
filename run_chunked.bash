@@ -14,6 +14,7 @@
 # plwg,batch2
 
 job_workdir='/lustre/cv/users/rindebet/galaxies/array_reduction/work'
+job_tmpdir='/lustre/naasc/sciops/comm/rindebet/tmp'
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 dry_run_submit=false
 dry_run_counter=0
@@ -375,8 +376,12 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
     fi
     
     if { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["S"] )); } && \
-       staged_ms_exists "${target_cli}" "${product_cli}"; then
+        staged_ms_exists "${target_cli}" "${product_cli}"; then
         echo "Staged MS already exists for ${job_tag}; skipping S submission."
+        STAGE_ID=""
+    elif { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["S"] )); } && \
+        assembled_products_exist "${target_cli}" "${product_cli}"; then
+        echo "Assembled products already exist for ${job_tag}; skipping S submission."
         STAGE_ID=""
     else
         export stagestring='S'
@@ -387,6 +392,10 @@ if [[ -z "${SLURM_JOB_ID:-}" ]]; then
     if { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["I"] )); } && \
        all_required_chunk_products_exist "${target_cli}" "${product_cli}"; then
         echo "All required chunk products already exist for ${job_tag}; skipping I submission."
+        IMAGE_ID=""
+    elif { [[ -z "${first_stage_to_rerun}" ]] || (( stage_rank["${first_stage_to_rerun}"] > stage_rank["I"] )); } && \
+        assembled_products_exist "${target_cli}" "${product_cli}"; then
+        echo "Assembled products already exist for ${job_tag}; skipping I submission."
         IMAGE_ID=""
     else
         export stagestring='I'
@@ -476,6 +485,7 @@ echo "Job array ID is set to '$SLURM_ARRAY_TASK_ID'"
 #${casadir}/bin/casa --log2term --logfile casa_{$SLURM_ARRAY_TASK_ID}.log -c "${code_dir}/run_chunk.py $target $stagestring $SLURM_ARRAY_TASK_ID"
 . /users/rindebet/miniforge3/etc/profile.d/conda.sh
 conda activate phclean
+# export PYTHONPATH="/home/casa/contrib/bitbucket/AIV/analysis_scripts:/lustre/cv/users/rindebet/local/github/phangs_imaging_scripts:${PYTHONPATH}"
 echo "Using conda environment: $(which python)"
 # Normalize any accidental whitespace so stage selection is exact.
 stage_mode="${stagestring:-}"
@@ -484,9 +494,9 @@ stage_mode="${stage_mode//[[:space:]]/}"
 echo "calling ${code_dir}/run_chunk.py $target $config $product $stagestring $SLURM_ARRAY_TASK_ID"
 
 if [[ "$stage_mode" == "I" ]]; then
-    OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 TMPDIR="$job_workdir" mpirun --mca btl_vader_single_copy_mechanism none -x OMP_NUM_THREADS -x OPENBLAS_NUM_THREADS -x TMPDIR -n 4 python ${code_dir}/run_chunk.py $target $config $product $stagestring $SLURM_ARRAY_TASK_ID
+    OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 TMPDIR="$job_tmpdir" mpirun --mca btl_vader_single_copy_mechanism none -x OMP_NUM_THREADS -x OPENBLAS_NUM_THREADS -x TMPDIR -n 4 python ${code_dir}/run_chunk.py $target $config $product $stagestring $SLURM_ARRAY_TASK_ID
 elif [[ "$stage_mode" == "D" ]]; then
-    OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 TMPDIR="$job_workdir" mpirun --mca btl_vader_single_copy_mechanism none -x OMP_NUM_THREADS -x OPENBLAS_NUM_THREADS -x TMPDIR -n 8 python ${code_dir}/run_chunk.py $target $config $product $stagestring $SLURM_ARRAY_TASK_ID
+    OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 TMPDIR="$job_tmpdir" mpirun --mca btl_vader_single_copy_mechanism none -x OMP_NUM_THREADS -x OPENBLAS_NUM_THREADS -x TMPDIR -n 8 python ${code_dir}/run_chunk.py $target $config $product $stagestring $SLURM_ARRAY_TASK_ID
 else
-    OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 TMPDIR="$job_workdir" python ${code_dir}/run_chunk.py $target $config $product $stagestring $SLURM_ARRAY_TASK_ID    
+    OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 TMPDIR="$job_tmpdir" python ${code_dir}/run_chunk.py $target $config $product $stagestring $SLURM_ARRAY_TASK_ID
 fi

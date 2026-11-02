@@ -64,77 +64,28 @@ all		all	noise_kw	{'spec_box':5,'iterations':3}
 
 all	    all	shuffle_kw	{}
 
-12m+7m+tp	all	strictmask_kw	{'hi_thresh':4.0,'hi_nchan':2,'lo_thresh':2.0,'lo_nchan':2}
-12m+7m+tp	all	strictmask_kw	{'grow_xy':0,'grow_v':0}
-12m+7m+tp	all	strictmask_kw	{'min_pix':None,'min_area':None}
-
-12m+7m		all	strictmask_kw	{'hi_thresh':4.0,'hi_nchan':2,'lo_thresh':2.0,'lo_nchan':2}
-12m+7m		all	strictmask_kw	{'grow_xy':0,'grow_v':0}
-12m+7m		all	strictmask_kw	{'min_pix':None,'min_area':None}
-
 all		all	strictmask_kw	{'hi_thresh':4.0,'hi_nchan':2,'lo_thresh':2.0,'lo_nchan':2}
 all		all	strictmask_kw	{'grow_xy':0,'grow_v':0}
 all		all	strictmask_kw	{'min_pix':None,'min_area':None}
 
 all		all	broadmask_kw	{}
 
-all		all	phys_res	{'60pc':60.0} 
-all     all ang_res     {'0p7as':0.7}
-#'90pc':90.0
+all	    all	mask_configs	[]
 
-#all		all	flatstrictmask_kw	{'window':'50km/s'}
-#all		all	flatbroadmask_kw	{'window':'50km/s'}
+all		all	flatstrictmask_kw	{'window':'100km/s'}
+#all	all	flatbroadmask_kw	{'window':'250km/s'}
 
-12m		co21	phys_res	{'60pc':60.0,'90pc':90.0,'120pc':120.0,'150pc':150.0}
-12m		co21	ang_res		{'2as':2.0}
-12m		c18o21	ang_res		{'2as':2.0}
-12m		cont	ang_res		{'2as':2.0}
-12m		all	mask_configs	['12m+7m','12m+7m+tp','7m','7m+tp']
-12m		co21	moments		['strictmom0','broadmom0']
-12m		c18o21	moments		['strictmom0','broadmom0']
 
-# 12m+7m		co21	phys_res	{'60pc':60.0,'90pc':90.0,'120pc':120.0,'150pc':150.0,'500pc':500.0,'750pc':750.0,'1kpc':1000.0}
-# 12m+7m		co21	ang_res		{'2as':2.0,'7p5as':7.5,'11as':11.0,'15as':15.0}
-# 12m+7m		co21	ang_res		{'2as':2.0}
-# 12m+7m		c18o21	ang_res		{'2as':2.0}
-# 12m+7m		cont	ang_res		{'2as':2.0}
-# 12m+7m		all	mask_configs	['12m+7m+tp']
-12m+7m		all	  moments		['strictmom0','strictmom1','strictmom2','strictew']
-12m+7m		all	  moments		['broadmom0','broadtpeak','broadtpeak8p0','broadmom1']
-# 12m+7m		co21	moments		['mom1wprior']
-# 12m+7m		co21	moments		['flatstrictmom0','flatbroadmom0']
-# 12m+7m		c18o21	moments		['strictmom0','broadmom0']
+12m+7m+tp   all	    phys_res	{'60pc':60.0} 
+12m+7m+tp   all     ang_res     {'0p7as':0.7}
+12m+7m+tp	all	    moments		['broadmom0','broadtpeak','strictmom0']
+12m+7m+tp   co21    moments     ['broadmom0','broadtpeak','strictmom0','broadmom1','strictmom1','mom1wprior','strictmom2']
 
-# 12m+7m+tp	co21	phys_res	{'60pc':60.0,'90pc':90.0,'120pc':120.0,'150pc':150.0,'500pc':500.0,'750pc':750.0,'1kpc':1000.0}
-# 12m+7m+tp	co21	ang_res		{'2as':2.0,'7p5as':7.5,'11as':11.0,'15as':15.0}
-# 12m+7m+tp	c18o21	ang_res		{'2as':2.0}
-12m+7m+tp	all	mask_configs	[]
-12m+7m+tp	co21	moments		['strictmom0','strictmom1','strictmom2','strictew']
-12m+7m+tp	all	    moments		['broadmom0','broadtpeak','broadtpeak8p0','broadmom1']
-12m+7m+tp	co21	moments		['mom1wprior']
-#12m+7m+tp	co21	moments		['flatstrictmom0','flatbroadmom0']
-12m+7m+tp	c18o21	moments		['strictmom0','broadmom0']
-12m+7m+tp	c18o21	moments		['flatstrictmom0','flatbroadmom0','flatbroadtpeak']
+# these are hard on lustre if tmp
+# 12m+7m+tp	c18o21	moments		['broadtpeak8p0']
+# 12m+7m+tp	13co21	moments		['broadtpeak8p0']
 
-7m		co21	phys_res	{'60pc':60.0,'90pc':90.0,'120pc':120.0,'150pc':150.0,'500pc':500.0,'750pc':750.0,'1kpc':1000.0}
-7m		co21	ang_res		{'7p5as':7.5,'11as':11.0,'15as':15.0}
-7m		c18o21	ang_res		{'7p5as':7.5,'11as':11.0,'15as':15.0}
-7m		cont	ang_res		{'7p5as':7.5,'11as':11.0,'15as':15.0}
-7m		all	mask_configs	['7m+tp']
-7m		co21	moments		['strictmom0','strictmom1','strictmom2','strictew']
-7m		co21	moments		['broadmom0','broadtpeak','broadtpeak8p0','broadmom1']
-#7m		co21	moments		['mom1wprior']
-#7m	    co21	moments		['flatstrictmom0','flatbroadmom0']
-7m		c18o21	moments		['strictmom0','broadmom0']
-
-7m+tp		co21	phys_res	{'60pc':60.0,'90pc':90.0,'120pc':120.0,'150pc':150.0,'500pc':500.0,'750pc':750.0,'1kpc':1000.0}
-7m+tp		co21	ang_res		{'7p5as':7.5,'11as':11.0,'15as':15.0}
-7m+tp		c18o21	ang_res		{'7p5as':7.5,'11as':11.0,'15as':15.0}
-7m+tp		co21	moments		['strictmom0','strictmom1','strictmom2','strictew']
-7m+tp		co21	moments		['broadmom0','broadtpeak','broadtpeak8p0','broadmom1']
-#7m+tp		co21	moments		['mom1wprior']
-#7m+tp	    co21	moments		['flatstrictmom0','flatbroadmom0']
-7m+tp		c18o21	moments		['strictmom0','broadmom0']
-
+12m+7m+tp	c18o21	moments		['flatstrictmom0']
+12m+7m+tp	13co21	moments		['flatstrictmom0']
 
 

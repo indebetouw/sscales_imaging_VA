@@ -37,6 +37,8 @@ sdir = '/lustre/cv/users/rindebet/local/github/sscales_imaging_VA/'
 key_file = sdir+'master_key_sscales.txt'
 sys.path.append(os.path.expanduser(sdir))
 sys.path.append(os.path.expanduser("/home/casa/contrib/bitbucket/AIV/analysis_scripts/"))
+sys.path.append(os.path.expanduser("/lustre/cv/users/rindebet/local/github/phangs_imaging_scripts/phangsPipeline"))
+
 chunksize = 40
 stage_overwrite = False
 redo_chunks = False   # TODO bring in as parameter from bash wrapper
@@ -336,7 +338,10 @@ if do_derived:
     do_strictmask = True
     do_broadmask = True
     do_moments = True
-    do_secondary = False
+    do_vfield = (product == "co21")
+    # Secondary moments are required for co21 velocity-field products such as
+    # mom1wprior, which feeds the final vfield build.
+    do_secondary = (product == "co21")
 
     if do_convolve:
         this_der.loop_derive_products(do_convolve=True, do_noise=False,
@@ -373,6 +378,13 @@ if do_derived:
         this_der.loop_derive_products(do_convolve=False, do_noise=False,
                                     do_strictmask=False, do_broadmask=False,
                                     do_moments=True, do_secondary=False)
+
+    # Build the velocity field only for co21 products.
+    if do_vfield:
+        this_der.loop_derive_products(do_convolve=False, do_noise=False,
+                                    do_strictmask=False, do_broadmask=False,
+                                    do_moments=False, do_secondary=False,
+                                    do_vfield=True)
 
     # Run a second round of moment calculations. This enables claculation
     # of moments that depend on other, earlier moment map calculations

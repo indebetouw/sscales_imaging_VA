@@ -26,4 +26,17 @@
 # delimiter: ','
 # schema: astropy-2.0
 # target,window,vfield_file
-ngc5236,250,ngc5236_12m+7m+tp_co21_vfield.fits
+ngc5236,200,ngc5236_12m+7m+tp_co21_60pc_strict_mom1.fits
+ngc5236_1,200,ngc5236_1_12m+7m+tp_co21_vfield.fits
+ngc5236_2,200,ngc5236_2_12m+7m+tp_co21_vfield.fits
+ngc5236_3,200,ngc5236_3_12m+7m+tp_co21_vfield.fits
+ngc5236_4,200,ngc5236_4_12m+7m+tp_co21_vfield.fits
+ngc5236_5,200,ngc5236_5_12m+7m+tp_co21_vfield.fits
+ngc5236_6,200,ngc5236_6_12m+7m+tp_co21_vfield.fits
+ngc5236_7,200,ngc5236_7_12m+7m+tp_co21_vfield.fits
+ngc5236_8,200,ngc5236_8_12m+7m+tp_co21_vfield.fits
+# ngc5236_9,200,ngc5236_9_12m+7m+tp_co21_vfield.fits
+ngc5236_9,200,ngc5236_12m+7m+tp_co21_strict_mom1.fits
+ngc5236_10,200,ngc5236_10_12m+7m+tp_co21_vfield.fits
+ngc5236_11,200,ngc5236_11_12m+7m+tp_co21_vfield.fits
+ngc5236_12,200,ngc5236_12_12m+7m+tp_co21_vfield.fits
