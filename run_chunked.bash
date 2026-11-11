@@ -15,6 +15,7 @@
 
 job_workdir='/lustre/cv/users/rindebet/galaxies/array_reduction/work'
 job_tmpdir='/lustre/naasc/sciops/comm/rindebet/tmp'
+job_tmpdir='/lustre/cv/users/rindebet/tmp'
 script_dir="$(cd "$(dirname "$0")" && pwd)"
 dry_run_submit=false
 dry_run_counter=0

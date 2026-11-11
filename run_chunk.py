@@ -41,7 +41,7 @@ sys.path.append(os.path.expanduser("/lustre/cv/users/rindebet/local/github/phang
 
 chunksize = 40
 stage_overwrite = False
-redo_chunks = False   # TODO bring in as parameter from bash wrapper
+redo_chunks = True   # TODO bring in as parameter from bash wrapper
 
 
 # Pass the target name from the cmd line
@@ -49,11 +49,11 @@ redo_chunks = False   # TODO bring in as parameter from bash wrapper
 if len(sys.argv) != 6:
     # raise ValueError('SLURM processing requires exactly 3 command line arguments: target, stagestring, job_array_id')
 
-    target= 'ngc5236_4' 
-    stagestring = 'APD' 
+    target= 'ngc5236_8' 
+    stagestring = 'I' 
     chunk_num = 0 
     config = "12m+7m"
-    product = "c18o21"
+    product = "co21"
 
 else:
     target = sys.argv[-5]
@@ -74,8 +74,19 @@ do_assemble = False
 do_postprocess = False
 do_derived = False
 
+# Import the key handler before any handlers that depend on it.
 from phangsPipeline import handlerKeys as kh
 this_kh = kh.KeyHandler(master_key=key_file)
+
+# Load CASA utility modules before importing the postprocess handler, because
+# the postprocess stack imports casaCubeRoutines, which in turn imports
+# casaStuff, which imports taskSDIntImaging, which imports utilsSDIntImaging,
+# which imports check_getchunk_putchunk_memory_issue from casaCubeRoutines.
+# Initializing casaStuff here breaks that circular import chain.
+from phangsPipeline import casaStuff  # noqa: F401
+
+from phangsPipeline import phangsLogger as pl
+pl.setup_logger(level='DEBUG', logfile=None)
 
 if 'S' in stagestring:
     do_staging = True
@@ -127,11 +138,7 @@ if 'D' in stagestring:
 if target.endswith('.py'):
     raise ValueError('No target set at command line')
 
-from phangsPipeline import phangsLogger as pl
-pl.setup_logger(level='DEBUG', logfile=None)
-
 # Imports
-
 # sys.path.insert(1, )
 
 from phangsPipeline import handlerDerived as der
@@ -272,7 +279,8 @@ if do_imaging:
 
         init_mpi_if_needed()
         print(f"Chunk {chunk_num} of {this_imh.nchunks}")
-        this_imh.run_imaging(do_all=True, chunk_num=chunk_num)
+        this_imh.run_imaging(do_all=True, chunk_num=chunk_num, 
+                            convergence_fracflux=0.001)
 
 
 
